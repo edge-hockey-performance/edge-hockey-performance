@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The EDGE Guide to Blade Management | EDGE Hockey Performance</title>
-  <meta name="description" content="Everything serious hockey players and hockey parents need to know about blade management: hollow, profile, consistency, and how the pros do it." />
+  <title>Hollow: The Measurement That Controls Your Edge | EDGE Hockey Performance</title>
+  <meta name="description" content="The complete guide to hollow — what it is, how it works, how to choose yours, and why most youth players are sharpened wrong." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600;1,700;1,800&display=swap" rel="stylesheet" />
@@ -163,7 +163,7 @@
       color: var(--muted); margin-bottom: 24px;
     }
     .toc-grid {
-      display: grid; grid-template-columns: repeat(4, 1fr);
+      display: grid; grid-template-columns: repeat(3, 1fr);
       gap: 12px;
     }
     .toc-item {
@@ -381,7 +381,7 @@
     }
     .diagram-box-desc { font-size: 14px; color: rgba(255,255,255,0.3); }
 
-    /* ── PROBLEM SECTION ── */
+    /* ── PROBLEM / PRO LISTS ── */
     .problem-list {
       display: flex; flex-direction: column; gap: 14px; margin: 36px 0;
     }
@@ -399,7 +399,6 @@
     .problem-text { font-size: 15px; line-height: 1.6; color: rgba(212,216,224,0.7); }
     .problem-text strong { color: var(--chrome); font-weight: 600; }
 
-    /* ── PRO LIST ── */
     .pro-list {
       display: flex; flex-direction: column; gap: 14px; margin: 36px 0;
     }
@@ -488,7 +487,7 @@
       display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;
     }
 
-    /* ── EDGE SYSTEM CARDS ── */
+    /* ── SYSTEM CARDS ── */
     .system-grid {
       display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
       gap: 16px; margin: 48px 0;
@@ -512,135 +511,6 @@
     .system-card-body {
       font-size: 14px; line-height: 1.65; color: rgba(212,216,224,0.6);
     }
-
-    /* ── SUPPORTING CONTENT SECTION ── */
-    .related-grid {
-      display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 16px; margin: 40px 0;
-    }
-    .related-card {
-      background: var(--bg-2); border: 1px solid var(--border);
-      border-radius: var(--radius-lg); padding: 28px 24px;
-      text-decoration: none;
-      transition: border-color .2s, transform .2s;
-    }
-    .related-card:hover {
-      border-color: var(--border-bright);
-      transform: translateY(-2px);
-    }
-    .related-tag {
-      font-family: var(--font-head); font-size: 10px; font-weight: 700;
-      letter-spacing: 0.18em; text-transform: uppercase;
-      color: var(--ice-dim); margin-bottom: 10px;
-    }
-    .related-title {
-      font-family: var(--font-head); font-size: 17px; font-weight: 700;
-      letter-spacing: 0.04em; text-transform: uppercase;
-      color: var(--chrome-bright); margin-bottom: 8px; line-height: 1.2;
-    }
-    .related-desc { font-size: 13px; color: var(--muted); line-height: 1.55; }
-
-    /* ── FOOTER ── */
-    footer {
-      background: var(--bg-2); border-top: 1px solid var(--border);
-      padding: 60px 40px 40px;
-    }
-    .footer-grid {
-      max-width: var(--max); margin: 0 auto;
-      display: grid; grid-template-columns: 1.8fr 1fr 1fr 1fr;
-      gap: 40px; padding-bottom: 48px;
-      border-bottom: 1px solid var(--border);
-    }
-    .footer-logo img { height: 32px; margin-bottom: 16px; }
-    .footer-desc {
-      font-size: 14px; color: var(--muted); line-height: 1.7; margin-bottom: 12px;
-    }
-    .footer-tagline {
-      font-family: var(--font-head); font-size: 12px; font-weight: 700;
-      letter-spacing: 0.14em; text-transform: uppercase; color: var(--chrome-mid);
-    }
-    .footer-col-title {
-      font-family: var(--font-head); font-size: 11px; font-weight: 700;
-      letter-spacing: 0.16em; text-transform: uppercase;
-      color: var(--muted); margin-bottom: 18px;
-    }
-    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; }
-    .footer-links a {
-      font-size: 14px; color: rgba(212,216,224,0.55); text-decoration: none;
-      transition: color .2s;
-    }
-    .footer-links a:hover { color: var(--chrome); }
-    .footer-bottom {
-      max-width: var(--max); margin: 0 auto;
-      display: flex; justify-content: space-between; align-items: center;
-      padding-top: 28px; flex-wrap: wrap; gap: 12px;
-    }
-    .footer-copy { font-size: 13px; color: var(--muted); }
-    .footer-legal { display: flex; gap: 20px; }
-    .footer-legal a { font-size: 13px; color: var(--muted); text-decoration: none; }
-    .footer-legal a:hover { color: var(--chrome); }
-
-    /* ── PROFILE SPECTRUM ── */
-    .profile-spectrum {
-      margin: 36px 0;
-      background: var(--bg-2); border: 1px solid var(--border);
-      border-radius: var(--radius-lg); padding: 32px 28px;
-    }
-    .spectrum-bar {
-      position: relative; height: 8px;
-      background: linear-gradient(90deg, rgba(74,222,128,0.5) 0%, rgba(184,212,232,0.5) 50%, rgba(239,68,68,0.5) 100%);
-      border-radius: 4px; margin: 20px 0;
-    }
-    .spectrum-labels {
-      display: flex; justify-content: space-between;
-      font-family: var(--font-head); font-size: 11px; font-weight: 700;
-      letter-spacing: 0.12em; text-transform: uppercase;
-    }
-    .spectrum-labels span { color: var(--muted); }
-    .spectrum-title {
-      font-family: var(--font-head); font-size: 13px; font-weight: 700;
-      letter-spacing: 0.12em; text-transform: uppercase;
-      color: var(--chrome-mid); margin-bottom: 4px;
-    }
-    .spectrum-desc { font-size: 13px; color: var(--muted); }
-
-    /* ── RESPONSIVE ── */
-
-    /* ── PHOTO PLACEHOLDERS ── */
-    .photo-block {
-      position: relative; width: 100%; border-radius: var(--radius-lg);
-      overflow: hidden; background: var(--bg-2);
-      border: 1px solid var(--border);
-    }
-    .photo-block img { width: 100%; display: block; object-fit: cover; }
-    .photo-placeholder {
-      display: flex; flex-direction: column;
-      align-items: center; justify-content: center;
-      gap: 10px; text-align: center;
-      background: linear-gradient(135deg, #111 0%, #161616 50%, #111 100%);
-      border: 1px dashed rgba(255,255,255,0.13);
-      border-radius: var(--radius-lg);
-    }
-    .photo-placeholder-icon {
-      font-size: 32px; opacity: 0.25;
-    }
-    .photo-placeholder-label {
-      font-family: var(--font-head); font-size: 11px; font-weight: 700;
-      letter-spacing: 0.18em; text-transform: uppercase;
-      color: rgba(255,255,255,0.2);
-    }
-    .photo-placeholder-hint {
-      font-size: 12px; color: rgba(255,255,255,0.15);
-      max-width: 200px; line-height: 1.5;
-    }
-    /* Hero photo strip */
-    .hero-photo-strip {
-      display: grid; grid-template-columns: 2fr 1fr 1fr;
-      gap: 10px; max-width: var(--max); margin: 0 auto;
-      padding: 0 40px 60px;
-    }
-    .hero-photo-strip .photo-placeholder { min-height: 260px; }
-    .hero-photo-strip .photo-placeholder:first-child { min-height: 260px; }
 
     /* ── SVG DIAGRAM WRAPPERS ── */
     .diagram-wrap {
@@ -683,60 +553,53 @@
       width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
     }
 
-    /* Blade side-view profile */
-    .profile-diagram {
-      display: flex; flex-direction: column; gap: 32px;
+    /* ── FOOTER ── */
+    footer {
+      background: var(--bg-2); border-top: 1px solid var(--border);
+      padding: 60px 40px 40px;
     }
-    .profile-row {
-      display: flex; gap: 24px; align-items: center; flex-wrap: wrap;
+    .footer-grid {
+      max-width: var(--max); margin: 0 auto;
+      display: grid; grid-template-columns: 1.8fr 1fr 1fr 1fr;
+      gap: 40px; padding-bottom: 48px;
+      border-bottom: 1px solid var(--border);
     }
-    .profile-svg-wrap {
-      flex: 2; min-width: 280px;
+    .footer-logo img { height: 32px; margin-bottom: 16px; }
+    .footer-desc {
+      font-size: 14px; color: var(--muted); line-height: 1.7; margin-bottom: 12px;
     }
-    .profile-svg-wrap svg { width: 100%; height: auto; }
-    .profile-info {
-      flex: 1; min-width: 180px;
+    .footer-tagline {
+      font-family: var(--font-head); font-size: 12px; font-weight: 700;
+      letter-spacing: 0.14em; text-transform: uppercase; color: var(--chrome-mid);
     }
-    .profile-info-name {
-      font-family: var(--font-head); font-size: 18px; font-weight: 800;
-      font-style: italic; text-transform: uppercase;
-      color: var(--chrome-bright); margin-bottom: 8px;
+    .footer-col-title {
+      font-family: var(--font-head); font-size: 11px; font-weight: 700;
+      letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--muted); margin-bottom: 18px;
     }
-    .profile-info-tags {
-      display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px;
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-links a {
+      font-size: 14px; color: rgba(212,216,224,0.55); text-decoration: none;
+      transition: color .2s;
     }
-    .profile-info-body { font-size: 13px; color: rgba(212,216,224,0.6); line-height: 1.6; }
-    .profile-divider {
-      height: 1px; background: var(--border); width: 100%;
+    .footer-links a:hover { color: var(--chrome); }
+    .footer-bottom {
+      max-width: var(--max); margin: 0 auto;
+      display: flex; justify-content: space-between; align-items: center;
+      padding-top: 28px; flex-wrap: wrap; gap: 12px;
     }
+    .footer-copy { font-size: 13px; color: var(--muted); }
+    .footer-legal { display: flex; gap: 20px; }
+    .footer-legal a { font-size: 13px; color: var(--muted); text-decoration: none; }
+    .footer-legal a:hover { color: var(--chrome); }
 
-    /* Annotated blade */
-    .blade-annotated-wrap {
-      width: 100%; overflow-x: auto;
-    }
-    .blade-annotated-wrap svg { min-width: 580px; width: 100%; height: auto; }
-
-    /* Side-by-side layout for hollow + photo */
-    .hollow-layout {
-      display: grid; grid-template-columns: 1fr 1fr;
-      gap: 24px; margin: 40px 0; align-items: start;
-    }
-    .profile-layout {
-      display: grid; grid-template-columns: 1fr;
-      gap: 24px; margin: 40px 0;
-    }
-    @media (max-width: 768px) {
-      .hollow-layout { grid-template-columns: 1fr; }
-      .hero-photo-strip { grid-template-columns: 1fr; padding: 0 20px 40px; }
-      .hero-photo-strip .photo-placeholder { min-height: 180px; }
-      .profile-row { flex-direction: column; }
-    }
-
+    /* ── RESPONSIVE ── */
     @media (max-width: 768px) {
       nav { padding: 0 20px; }
       .guide-hero { padding: 70px 20px 60px; }
       .guide-wrap { padding: 0 20px; }
       .toc-section { padding: 40px 20px; }
+      .toc-grid { grid-template-columns: repeat(2, 1fr); }
       .guide-section { padding: 70px 0; }
       .footer-grid { grid-template-columns: 1fr 1fr; }
       .stat-row { flex-direction: column; }
@@ -747,27 +610,13 @@
       .btn-cta-ghost { margin-left: 0; }
       .guide-hero h1 { font-size: clamp(36px, 10vw, 56px); }
       .section-h2 { font-size: clamp(22px, 6vw, 32px); }
-      .insight-grid { grid-template-columns: 1fr; }
-      .system-grid { grid-template-columns: 1fr; }
-      .toc-grid { grid-template-columns: repeat(2, 1fr); }
-      .compare-table { font-size: 13px; }
-      .compare-table th, .compare-table td { padding: 10px 12px; }
-      .stat-card { min-width: unset; }
-      .profile-row { gap: 16px; }
-      .hollow-section-diagram { gap: 12px; }
-      .hollow-cross-item { min-width: 120px; max-width: 160px; }
-      .pull-quote { padding-left: 18px; }
-      .pull-quote p { font-size: clamp(18px, 5vw, 24px); }
-      .callout { padding: 20px 18px; }
-      .mid-cta h3 { font-size: clamp(22px, 6vw, 32px); }
-      .final-cta h2 { font-size: clamp(32px, 9vw, 50px); }
-      .diagram-wrap { padding: 24px 16px; }
-      .section-inner { padding: 0 4px; }
+      .nav-label { display: none; }
     }
     @media (max-width: 480px) {
+      .toc-grid { grid-template-columns: 1fr; }
       .footer-grid { grid-template-columns: 1fr; gap: 28px; }
       .final-cta-btns { flex-direction: column; align-items: stretch; }
-      .btn-cta-chrome, .btn-cta-ghost { text-align: center; }
+      .final-cta h2 { font-size: clamp(32px, 9vw, 50px); }
     }
   </style>
 </head>
@@ -785,7 +634,7 @@
     Back to EDGE
   </a>
   <div class="nav-right">
-    <span class="nav-label">Blade Management Guide</span>
+    <span class="nav-label">Blade Education Series — Part 3</span>
     <a href="/contact.html" class="btn-nav-chrome">Request Assessment</a>
   </div>
 </nav>
@@ -793,979 +642,547 @@
 <!-- ════ HERO ════ -->
 <section class="guide-hero">
   <div class="guide-hero-inner">
-    <span class="guide-eyebrow">Blade Education Series</span>
-    <h1>The <span class="hl">EDGE</span> Guide<br>to Blade Management</h1>
-    <p class="guide-hero-sub">Everything serious players and hockey families should understand about hollows, profiles, consistency, and why most youth players are still guessing with their edges.</p>
+    <span class="guide-eyebrow">Blade Education Series — Part 3</span>
+    <h1>Hollow:<br><span class="hl">The Measurement That Controls Your Edge</span></h1>
+    <p class="guide-hero-sub">Every sharpening produces a hollow. Most players don't know what hollow they're on — or why it matters. Here's what's actually happening under your blade.</p>
     <div class="guide-hero-meta">
-      <span class="guide-meta-item"><span class="guide-meta-dot"></span>Hollow &amp; ROH</span>
-      <span class="guide-meta-item"><span class="guide-meta-dot"></span>Blade Profile</span>
-      <span class="guide-meta-item"><span class="guide-meta-dot"></span>Consistency</span>
-      <span class="guide-meta-item"><span class="guide-meta-dot"></span>Sharpening Frequency</span>
-      <span class="guide-meta-item"><span class="guide-meta-dot"></span>Steel Wear</span>
+      <div class="guide-meta-item"><div class="guide-meta-dot"></div>Advanced Blade Education</div>
+      <div class="guide-meta-item"><div class="guide-meta-dot"></div>Hollow Spectrum Explained</div>
+      <div class="guide-meta-item"><div class="guide-meta-dot"></div>How To Choose Your Hollow</div>
     </div>
   </div>
 </section>
-
-
 
 <!-- ════ TABLE OF CONTENTS ════ -->
 <div class="toc-section">
   <div class="toc-inner">
-    <p class="toc-label">In This Guide</p>
+    <div class="toc-label">In This Guide</div>
     <div class="toc-grid">
-      <a href="#hollow" class="toc-item">
+      <a href="#what-is-hollow" class="toc-item">
         <span class="toc-num">01</span>
-        <span class="toc-text">Hollow &amp; ROH</span>
+        <span class="toc-text">What Is Hollow?</span>
       </a>
-      <a href="#profile" class="toc-item">
+      <a href="#how-it-works" class="toc-item">
         <span class="toc-num">02</span>
-        <span class="toc-text">Blade Profile</span>
+        <span class="toc-text">How Hollow Works</span>
       </a>
-      <a href="#consistency" class="toc-item">
+      <a href="#the-spectrum" class="toc-item">
         <span class="toc-num">03</span>
-        <span class="toc-text">Consistency</span>
+        <span class="toc-text">The Hollow Spectrum</span>
       </a>
-      <a href="#frequency" class="toc-item">
+      <a href="#what-nobody-tells-you" class="toc-item">
         <span class="toc-num">04</span>
-        <span class="toc-text">Sharpening Frequency</span>
+        <span class="toc-text">What Nobody Tells You</span>
       </a>
-      <a href="#wear" class="toc-item">
+      <a href="#choosing-hollow" class="toc-item">
         <span class="toc-num">05</span>
-        <span class="toc-text">Steel Wear</span>
+        <span class="toc-text">Choosing Your Hollow</span>
       </a>
-      <a href="#problem" class="toc-item">
+      <a href="#managing-hollow" class="toc-item">
         <span class="toc-num">06</span>
-        <span class="toc-text">The Real Problem</span>
-      </a>
-      <a href="#elite" class="toc-item">
-        <span class="toc-num">07</span>
-        <span class="toc-text">How the Elite Do It</span>
-      </a>
-      <a href="#edge-system" class="toc-item">
-        <span class="toc-num">08</span>
-        <span class="toc-text">The EDGE System</span>
+        <span class="toc-text">Managing Consistently</span>
       </a>
     </div>
   </div>
 </div>
 
-<!-- ════ INTRO ════ -->
+<!-- ════ CONTENT ════ -->
 <div class="guide-wrap">
 
-  <section class="guide-section" style="padding-top:80px;">
-    <div class="section-inner">
-      <p class="body-copy">Blade management is one of the most consistently overlooked variables in hockey performance. Players and families spend thousands on equipment, ice time, and coaching. Then they hand their skates to whoever is available at the rink, accept whatever hollow is loaded in the machine, and wonder why their edges feel different every week.</p>
-      <div class="pull-quote">
-        <p>Your edges are your foundation. Everything else you do on the ice is built on top of them.</p>
-      </div>
-      <p class="body-copy">This guide covers what serious players and hockey families need to understand about blade management: what the variables are, why they matter, and what it actually looks like to manage them with intention.</p>
-    </div>
-  </section>
+<!-- ── SECTION 1: What Is Hollow ── -->
+<section class="guide-section" id="what-is-hollow">
+  <div class="section-inner">
+    <p class="section-num">03 // Hollow</p>
+    <h2 class="section-h2">What Is<br><span class="hl">Hollow?</span></h2>
+    <p class="section-lead">Hollow is the concave groove ground into the bottom of your blade during sharpening. It's measured as the radius of the circle that would complete that arc — and it determines how deeply your edges bite into the ice.</p>
 
-  <!-- ════ 01. HOLLOW ════ -->
-  <section class="guide-section" id="hollow">
-    <div class="section-inner">
-      <p class="section-num">01 &#47;&#47; Hollow &amp; Radius of Hollow</p>
-      <h2 class="section-h2">The Variable<br><span class="hl">Most Players Guess</span></h2>
-      <p class="section-lead">Every sharpening cuts a small channel into the bottom of the blade. The depth of that channel is your hollow. It controls the two most fundamental skating forces: grip and glide.</p>
+    <p class="body-copy">Look at a blade from the front. The bottom isn't flat — it's a curved groove. The edges on either side of that groove are the two contact points that grip the ice. The deeper and narrower that groove, the more aggressive the bite. The shallower and wider, the more glide.</p>
 
-      <p class="body-copy">The radius of hollow, or ROH, is measured in fractions of an inch. A <strong>3/8" hollow</strong> creates a deeper channel, producing more bite into the ice. A <strong>1" hollow</strong> creates a shallower channel, allowing more speed and glide. Most pro shops default to a 1/2" hollow without asking a single question about the player.</p>
+    <p class="body-copy">The <strong>hollow radius</strong> is expressed as a fraction of an inch. A <strong>1/2" hollow</strong> means the groove was carved by a wheel with a 1/2-inch radius. Smaller fractions mean a deeper, sharper groove. Larger fractions mean a shallower, smoother groove.</p>
 
+    <!-- Cross-section diagram -->
+    <div class="diagram-wrap">
+      <div class="diagram-title">Blade Cross-Section — Hollow Anatomy</div>
+      <div style="display:flex;flex-direction:column;align-items:center;gap:28px;">
 
-<div class="diagram-wrap">
-  <div class="diagram-title">Hollow Cross-Section — How ROH Changes Your Blade</div>
-  <div class="hollow-section-diagram">
+        <!-- Main labeled SVG -->
+        <svg viewBox="0 0 500 220" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:520px;display:block;">
+          <!-- Background -->
+          <rect width="500" height="220" fill="#111"/>
 
-    <!-- 3/8" — Deep -->
-    <div class="hollow-cross-item">
-      <svg viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <!-- blade body -->
-        <rect x="10" y="8" width="100" height="42" rx="3" fill="#1A1A1A" stroke="rgba(212,216,224,0.2)" stroke-width="1"/>
-        <!-- blade bottom flat -->
-        <line x1="10" y1="50" x2="45" y2="50" stroke="rgba(212,216,224,0.5)" stroke-width="1.5"/>
-        <line x1="75" y1="50" x2="110" y2="50" stroke="rgba(212,216,224,0.5)" stroke-width="1.5"/>
-        <!-- deep hollow arc -->
-        <path d="M45,50 Q60,20 75,50" fill="rgba(184,212,232,0.12)" stroke="#B8D4E8" stroke-width="1.5"/>
-        <!-- ice surface -->
-        <line x1="5" y1="56" x2="115" y2="56" stroke="rgba(184,212,232,0.3)" stroke-width="1" stroke-dasharray="4,3"/>
-        <!-- edge dots -->
-        <circle cx="45" cy="50" r="3" fill="#4ade80"/>
-        <circle cx="75" cy="50" r="3" fill="#4ade80"/>
-        <!-- depth arrow -->
-        <line x1="60" y1="50" x2="60" y2="22" stroke="rgba(239,68,68,0.6)" stroke-width="1" stroke-dasharray="2,2"/>
-        <text x="65" y="36" fill="rgba(239,68,68,0.8)" font-size="7" font-family="sans-serif">deep</text>
-        <!-- labels -->
-        <text x="40" y="70" fill="rgba(74,222,128,0.8)" font-size="8" font-family="sans-serif" font-weight="bold">inner</text>
-        <text x="68" y="70" fill="rgba(74,222,128,0.8)" font-size="8" font-family="sans-serif" font-weight="bold">outer</text>
-      </svg>
-      <div class="hollow-cross-label">3/8"</div>
-      <div class="hollow-cross-sub">Deep cut. Maximum grip. More resistance on glide.</div>
-    </div>
+          <!-- Ice surface line -->
+          <line x1="60" y1="150" x2="440" y2="150" stroke="rgba(184,212,232,0.2)" stroke-width="1" stroke-dasharray="8,5"/>
+          <!-- Ice surface label -->
+          <text x="63" y="145" fill="rgba(184,212,232,0.35)" font-size="10" font-family="sans-serif">ice surface</text>
 
-    <!-- 5/8" — Balanced -->
-    <div class="hollow-cross-item">
-      <svg viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="10" y="8" width="100" height="42" rx="3" fill="#1A1A1A" stroke="rgba(212,216,224,0.2)" stroke-width="1"/>
-        <line x1="10" y1="50" x2="42" y2="50" stroke="rgba(212,216,224,0.5)" stroke-width="1.5"/>
-        <line x1="78" y1="50" x2="110" y2="50" stroke="rgba(212,216,224,0.5)" stroke-width="1.5"/>
-        <!-- balanced arc -->
-        <path d="M42,50 Q60,32 78,50" fill="rgba(184,212,232,0.1)" stroke="#ECEEF2" stroke-width="1.5"/>
-        <line x1="5" y1="56" x2="115" y2="56" stroke="rgba(184,212,232,0.3)" stroke-width="1" stroke-dasharray="4,3"/>
-        <circle cx="42" cy="50" r="3" fill="#4ade80"/>
-        <circle cx="78" cy="50" r="3" fill="#4ade80"/>
-        <line x1="60" y1="50" x2="60" y2="33" stroke="rgba(239,68,68,0.6)" stroke-width="1" stroke-dasharray="2,2"/>
-        <text x="65" y="42" fill="rgba(239,68,68,0.8)" font-size="7" font-family="sans-serif">balanced</text>
-        <text x="36" y="70" fill="rgba(74,222,128,0.8)" font-size="8" font-family="sans-serif" font-weight="bold">inner</text>
-        <text x="70" y="70" fill="rgba(74,222,128,0.8)" font-size="8" font-family="sans-serif" font-weight="bold">outer</text>
-      </svg>
-      <div class="hollow-cross-label">5/8"</div>
-      <div class="hollow-cross-sub">Balanced. Most common starting point for youth players.</div>
-    </div>
+          <!-- Blade body (rectangle) — sits above ice line -->
+          <rect x="80" y="40" width="340" height="110" rx="3" fill="#1A1A1A" stroke="rgba(212,216,224,0.2)" stroke-width="1.5"/>
 
-    <!-- 3/4" -->
-    <div class="hollow-cross-item">
-      <svg viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="10" y="8" width="100" height="42" rx="3" fill="#1A1A1A" stroke="rgba(212,216,224,0.2)" stroke-width="1"/>
-        <line x1="10" y1="50" x2="40" y2="50" stroke="rgba(212,216,224,0.5)" stroke-width="1.5"/>
-        <line x1="80" y1="50" x2="110" y2="50" stroke="rgba(212,216,224,0.5)" stroke-width="1.5"/>
-        <!-- shallower arc -->
-        <path d="M40,50 Q60,39 80,50" fill="rgba(184,212,232,0.08)" stroke="#A8AEBB" stroke-width="1.5"/>
-        <line x1="5" y1="56" x2="115" y2="56" stroke="rgba(184,212,232,0.3)" stroke-width="1" stroke-dasharray="4,3"/>
-        <circle cx="40" cy="50" r="3" fill="#4ade80"/>
-        <circle cx="80" cy="50" r="3" fill="#4ade80"/>
-        <line x1="60" y1="50" x2="60" y2="39" stroke="rgba(239,68,68,0.6)" stroke-width="1" stroke-dasharray="2,2"/>
-        <text x="65" y="47" fill="rgba(239,68,68,0.8)" font-size="7" font-family="sans-serif">shallow</text>
-        <text x="34" y="70" fill="rgba(74,222,128,0.8)" font-size="8" font-family="sans-serif" font-weight="bold">inner</text>
-        <text x="70" y="70" fill="rgba(74,222,128,0.8)" font-size="8" font-family="sans-serif" font-weight="bold">outer</text>
-      </svg>
-      <div class="hollow-cross-label">3/4"</div>
-      <div class="hollow-cross-sub">Shallower. More glide. Common for larger, heavier players.</div>
-    </div>
+          <!-- Hollow groove arc — curves UPWARD into the blade (concave) -->
+          <!-- Edges at y=150, groove peak at y=105 (curves up into blade) -->
+          <path d="M140,150 Q250,105 360,150" fill="rgba(184,212,232,0.06)" stroke="#B8D4E8" stroke-width="2.5"/>
 
-    <!-- 1" — Shallow -->
-    <div class="hollow-cross-item">
-      <svg viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="10" y="8" width="100" height="42" rx="3" fill="#1A1A1A" stroke="rgba(212,216,224,0.2)" stroke-width="1"/>
-        <line x1="10" y1="50" x2="38" y2="50" stroke="rgba(212,216,224,0.5)" stroke-width="1.5"/>
-        <line x1="82" y1="50" x2="110" y2="50" stroke="rgba(212,216,224,0.5)" stroke-width="1.5"/>
-        <!-- very shallow arc -->
-        <path d="M38,50 Q60,45 82,50" fill="rgba(184,212,232,0.06)" stroke="#7A8292" stroke-width="1.5"/>
-        <line x1="5" y1="56" x2="115" y2="56" stroke="rgba(184,212,232,0.3)" stroke-width="1" stroke-dasharray="4,3"/>
-        <circle cx="38" cy="50" r="3" fill="#4ade80"/>
-        <circle cx="82" cy="50" r="3" fill="#4ade80"/>
-        <text x="34" y="70" fill="rgba(74,222,128,0.8)" font-size="8" font-family="sans-serif" font-weight="bold">inner</text>
-        <text x="70" y="70" fill="rgba(74,222,128,0.8)" font-size="8" font-family="sans-serif" font-weight="bold">outer</text>
-      </svg>
-      <div class="hollow-cross-label">1"</div>
-      <div class="hollow-cross-sub">Very shallow. Maximum glide efficiency. Less bite on cuts.</div>
-    </div>
+          <!-- Left edge dot -->
+          <circle cx="140" cy="150" r="5" fill="#ECEEF2"/>
+          <!-- Right edge dot -->
+          <circle cx="360" cy="150" r="5" fill="#ECEEF2"/>
+          <!-- Top of groove dot (deepest point of hollow, highest into blade) -->
+          <circle cx="250" cy="105" r="4" fill="rgba(184,212,232,0.5)"/>
 
-  </div>
-  <div class="hollow-legend">
-    <div class="hollow-legend-item">
-      <div class="hollow-legend-dot" style="background:#4ade80;"></div>
-      Edge contact points (inner and outer)
-    </div>
-    <div class="hollow-legend-item">
-      <div class="hollow-legend-dot" style="background:rgba(184,212,232,0.5);"></div>
-      Ice surface
-    </div>
-    <div class="hollow-legend-item">
-      <div class="hollow-legend-dot" style="background:rgba(239,68,68,0.6);"></div>
-      Hollow depth
-    </div>
-  </div>
-</div>
+          <!-- Depth line (dashed) — from ice level up to groove peak -->
+          <line x1="250" y1="150" x2="250" y2="105" stroke="rgba(239,68,68,0.6)" stroke-width="1.5" stroke-dasharray="4,3"/>
+          <!-- Depth label -->
+          <text x="257" y="133" fill="rgba(239,68,68,0.75)" font-size="10" font-family="sans-serif">depth</text>
 
+          <!-- Hollow groove label -->
+          <text x="186" y="128" fill="rgba(184,212,232,0.6)" font-size="11" font-family="sans-serif">Hollow Groove</text>
 
-<div style="margin:36px 0; border-radius:14px; overflow:hidden; border:1px solid rgba(255,255,255,0.08);">
-  <svg width="100%" viewBox="0 0 760 180" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block;">
-    <rect width="760" height="180" fill="#0A0A0A"/>
-    <linearGradient id="inlineBG" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0A0A0A"/>
-      <stop offset="20%" stop-color="#0D1520"/>
-      <stop offset="50%" stop-color="#0A1018"/>
-      <stop offset="80%" stop-color="#0D1520"/>
-      <stop offset="100%" stop-color="#0A0A0A"/>
-    </linearGradient>
-    <rect width="760" height="180" fill="url(#inlineBG)"/>
+          <!-- Left edge label -->
+          <line x1="138" y1="148" x2="80" y2="120" stroke="rgba(212,216,224,0.25)" stroke-width="1"/>
+          <text x="12" y="116" fill="#ECEEF2" font-size="11" font-family="sans-serif" font-weight="600">Left</text>
+          <text x="12" y="129" fill="#ECEEF2" font-size="11" font-family="sans-serif" font-weight="600">Edge</text>
 
-    <!-- Three blade cross-sections side by side, zoomed and centered -->
-    <!-- 3/8 -->
-    <g transform="translate(100,20)">
-      <rect x="0" y="0" width="140" height="60" rx="4" fill="#181818" stroke="rgba(212,216,224,0.15)" stroke-width="1"/>
-      <linearGradient id="s1" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0%" stop-color="#1E2024"/><stop offset="50%" stop-color="#3A3E44"/><stop offset="100%" stop-color="#1E2024"/>
-      </linearGradient>
-      <rect x="0" y="0" width="140" height="60" rx="4" fill="url(#s1)" opacity="0.7"/>
-      <line x1="0" y1="60" x2="45" y2="60" stroke="#ECEEF2" stroke-width="1.5"/>
-      <line x1="95" y1="60" x2="140" y2="60" stroke="#ECEEF2" stroke-width="1.5"/>
-      <path d="M45,60 Q70,28 95,60" fill="rgba(184,212,232,0.14)" stroke="#B8D4E8" stroke-width="1.8"/>
-      <circle cx="45" cy="60" r="4" fill="#4ade80"/>
-      <circle cx="95" cy="60" r="4" fill="#4ade80"/>
-      <line x1="0" y1="68" x2="140" y2="68" stroke="rgba(184,212,232,0.2)" stroke-width="1" stroke-dasharray="5,3"/>
-    </g>
-    <text x="170" y="106" text-anchor="middle" fill="rgba(212,216,224,0.7)" font-size="13"
-      font-family="'Barlow Condensed', sans-serif" font-weight="800" font-style="italic">3/8"</text>
-    <text x="170" y="118" text-anchor="middle" fill="rgba(74,222,128,0.7)" font-size="9"
-      font-family="sans-serif" font-weight="600">DEEP GRIP</text>
+          <!-- Right edge label -->
+          <line x1="362" y1="148" x2="420" y2="120" stroke="rgba(212,216,224,0.25)" stroke-width="1"/>
+          <text x="423" y="116" fill="#ECEEF2" font-size="11" font-family="sans-serif" font-weight="600">Right</text>
+          <text x="423" y="129" fill="#ECEEF2" font-size="11" font-family="sans-serif" font-weight="600">Edge</text>
 
-    <!-- 5/8 -->
-    <g transform="translate(310,20)">
-      <rect x="0" y="0" width="140" height="60" rx="4" fill="#181818" stroke="rgba(212,216,224,0.15)" stroke-width="1"/>
-      <linearGradient id="s2" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0%" stop-color="#1E2024"/><stop offset="50%" stop-color="#3A3E44"/><stop offset="100%" stop-color="#1E2024"/>
-      </linearGradient>
-      <rect x="0" y="0" width="140" height="60" rx="4" fill="url(#s2)" opacity="0.7"/>
-      <line x1="0" y1="60" x2="42" y2="60" stroke="#ECEEF2" stroke-width="1.5"/>
-      <line x1="98" y1="60" x2="140" y2="60" stroke="#ECEEF2" stroke-width="1.5"/>
-      <path d="M42,60 Q70,42 98,60" fill="rgba(212,216,224,0.1)" stroke="#ECEEF2" stroke-width="1.8"/>
-      <circle cx="42" cy="60" r="4" fill="#4ade80"/>
-      <circle cx="98" cy="60" r="4" fill="#4ade80"/>
-      <line x1="0" y1="68" x2="140" y2="68" stroke="rgba(184,212,232,0.2)" stroke-width="1" stroke-dasharray="5,3"/>
-    </g>
-    <text x="380" y="106" text-anchor="middle" fill="rgba(212,216,224,0.7)" font-size="13"
-      font-family="'Barlow Condensed', sans-serif" font-weight="800" font-style="italic">5/8"</text>
-    <text x="380" y="118" text-anchor="middle" fill="rgba(212,216,224,0.5)" font-size="9"
-      font-family="sans-serif" font-weight="600">BALANCED</text>
-
-    <!-- 1" -->
-    <g transform="translate(520,20)">
-      <rect x="0" y="0" width="140" height="60" rx="4" fill="#181818" stroke="rgba(212,216,224,0.15)" stroke-width="1"/>
-      <linearGradient id="s3" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0%" stop-color="#1E2024"/><stop offset="50%" stop-color="#3A3E44"/><stop offset="100%" stop-color="#1E2024"/>
-      </linearGradient>
-      <rect x="0" y="0" width="140" height="60" rx="4" fill="url(#s3)" opacity="0.7"/>
-      <line x1="0" y1="60" x2="40" y2="60" stroke="#ECEEF2" stroke-width="1.5"/>
-      <line x1="100" y1="60" x2="140" y2="60" stroke="#ECEEF2" stroke-width="1.5"/>
-      <path d="M40,60 Q70,52 100,60" fill="rgba(184,212,232,0.07)" stroke="#7A8292" stroke-width="1.8"/>
-      <circle cx="40" cy="60" r="4" fill="#4ade80"/>
-      <circle cx="100" cy="60" r="4" fill="#4ade80"/>
-      <line x1="0" y1="68" x2="140" y2="68" stroke="rgba(184,212,232,0.2)" stroke-width="1" stroke-dasharray="5,3"/>
-    </g>
-    <text x="590" y="106" text-anchor="middle" fill="rgba(212,216,224,0.7)" font-size="13"
-      font-family="'Barlow Condensed', sans-serif" font-weight="800" font-style="italic">1"</text>
-    <text x="590" y="118" text-anchor="middle" fill="rgba(184,212,232,0.6)" font-size="9"
-      font-family="sans-serif" font-weight="600">MAX GLIDE</text>
-
-    <!-- Bottom label bar -->
-    <rect x="0" y="130" width="760" height="50" fill="rgba(0,0,0,0.4)"/>
-    <text x="380" y="152" text-anchor="middle" fill="rgba(212,216,224,0.45)" font-size="10"
-      font-family="'Barlow Condensed', sans-serif" font-weight="700" letter-spacing="3">HOLLOW DEPTH COMPARISON — CROSS-SECTION VIEW</text>
-    <text x="380" y="167" text-anchor="middle" fill="rgba(255,255,255,0.2)" font-size="9"
-      font-family="sans-serif">Green dots = edge contact points · Deeper hollow = more grip, more drag · Shallower = more glide, less edge</text>
-  </svg>
-</div>
-  <p class="body-copy">The right hollow depends on the player. <strong>Body weight, skating style, position, and ice conditions</strong> all factor in. A 90-pound forward and a 200-pound defenseman should not be skating on the same hollow, yet most players have never had a conversation about it.</p>
-
-      <div class="callout accent">
-        <div class="callout-label">Key Insight</div>
-        <div class="callout-body">There is no universal best hollow. A hollow that makes one player feel locked in will make another feel like they are skating in sand. Personalization is the baseline, not a luxury. What matters just as much as finding the right hollow is <strong>hitting it exactly, every single time.</strong></div>
-      </div>
-
-      <p class="body-copy">Most youth players cannot tell you their hollow. They report how their edges feel in vague terms ("they feel good" or "they felt off tonight") without any reference point to what actually changed. That lack of data makes intentional adjustment impossible.</p>
-
-      <div class="pull-quote">
-        <p>If you don't know your hollow, you're not managing your edges. You're hoping.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ════ 02. PROFILE ════ -->
-  <section class="guide-section" id="profile">
-    <div class="section-inner">
-      <p class="section-num">02 &#47;&#47; Blade Profile</p>
-      <h2 class="section-h2"><span class="hl">The Shape</span><br>That Defines Your Stride</h2>
-      <p class="section-lead">If hollow is how your blade grips the ice, profile is how your blade contacts the ice. The rocker, or curvature of the blade from heel to toe, controls balance, acceleration, agility, and stride length.</p>
-
-      <p class="body-copy">The blade profile refers to the radius of the curve along the bottom of the skate. A blade with a <strong>more aggressive (shorter radius) rocker</strong> sits on a smaller contact patch, making the skater feel more agile and easier to pivot but less stable at top speed. A <strong>flatter profile (longer radius)</strong> increases the contact patch, improving glide efficiency and stability but reducing quickness in tight turns.</p>
-
-
-<div class="diagram-wrap">
-  <div class="diagram-title">Skate Blade — Side View with Key Zones</div>
-  <div class="blade-annotated-wrap">
-    <svg viewBox="0 0 680 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="annEdge" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%"   stop-color="#8A9098"/>
-          <stop offset="20%"  stop-color="#C8CDD8"/>
-          <stop offset="50%"  stop-color="#EAEDF2"/>
-          <stop offset="80%"  stop-color="#B4BAC8"/>
-          <stop offset="100%" stop-color="#8A9098"/>
-        </linearGradient>
-      </defs>
-
-      <!-- HOLDER / mounting rail (attaches to boot above) -->
-      <rect x="80" y="54" width="520" height="14" rx="4"
-        fill="#1E2024" stroke="rgba(212,216,224,0.3)" stroke-width="1.2"/>
-      <!-- Holder rivets -->
-      <circle cx="136" cy="61" r="3.5" fill="#252830" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
-      <circle cx="340" cy="61" r="3.5" fill="#252830" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
-      <circle cx="544" cy="61" r="3.5" fill="#252830" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
-      <!-- Holder label -->
-      <text x="340" y="51" text-anchor="middle" fill="rgba(212,216,224,0.3)"
-        font-size="9" font-family="sans-serif" letter-spacing="2">HOLDER</text>
-      <line x1="340" y1="53" x2="340" y2="55" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
-
-      <!-- BLADE BODY -->
-      <rect x="82" y="68" width="516" height="28" rx="0"
-        fill="rgba(212,216,224,0.05)"/>
-      <!-- Side edges of blade -->
-      <line x1="82"  y1="68" x2="82"  y2="96" stroke="rgba(212,216,224,0.25)" stroke-width="1.5"/>
-      <line x1="598" y1="68" x2="598" y2="96" stroke="rgba(212,216,224,0.25)" stroke-width="1.5"/>
-
-      <!-- SKATING EDGE — rocker curves DOWN toward ice, middle is lowest -->
-      <!-- Toe (left x=82) at y=96, contact center (x=340) dips to y=112, heel (x=598) at y=98 -->
-      <!-- Slight pitch: contact zone is slightly forward of center (toward toe) -->
-      <path d="M 82,96 Q 300,114 598,98"
-        fill="none" stroke="url(#annEdge)" stroke-width="3" stroke-linecap="round"/>
-
-      <!-- ICE SURFACE -->
-      <line x1="20" y1="130" x2="660" y2="130"
-        stroke="rgba(184,212,232,0.25)" stroke-width="1.5" stroke-dasharray="7,5"/>
-      <text x="22" y="127" fill="rgba(184,212,232,0.35)"
-        font-size="9" font-family="sans-serif" font-weight="600">ICE</text>
-
-      <!-- Lift gap lines -->
-      <line x1="82"  y1="96"  x2="82"  y2="130" stroke="rgba(255,255,255,0.08)" stroke-width="1" stroke-dasharray="3,3"/>
-      <line x1="598" y1="98"  x2="598" y2="130" stroke="rgba(255,255,255,0.08)" stroke-width="1" stroke-dasharray="3,3"/>
-
-      <!-- CONTACT PATCH highlight (deepest zone, closest to ice) -->
-      <path d="M 230,111 Q 300,114 370,111"
-        stroke="#4ade80" stroke-width="4.5" stroke-linecap="round" opacity="0.9"/>
-
-      <!-- ── ANNOTATIONS ── -->
-
-      <!-- TOE (left) -->
-      <line x1="82" y1="93" x2="82" y2="38" stroke="rgba(212,216,224,0.3)" stroke-width="1"/>
-      <circle cx="82" cy="95" r="4" fill="#ECEEF2"/>
-      <text x="56" y="28" fill="#ECEEF2"
-        font-size="12" font-family="'Barlow Condensed', sans-serif" font-weight="700" letter-spacing="1">TOE</text>
-      <text x="40" y="40" fill="rgba(212,216,224,0.4)"
-        font-size="9" font-family="sans-serif">Lifts off ice</text>
-
-      <!-- CONTACT PATCH (center) -->
-      <line x1="300" y1="112" x2="300" y2="38" stroke="rgba(74,222,128,0.4)" stroke-width="1" stroke-dasharray="3,2"/>
-      <circle cx="300" cy="113" r="4" fill="#4ade80"/>
-      <text x="218" y="28" fill="#4ade80"
-        font-size="12" font-family="'Barlow Condensed', sans-serif" font-weight="700" letter-spacing="1">CONTACT PATCH</text>
-      <text x="218" y="40" fill="rgba(212,216,224,0.4)"
-        font-size="9" font-family="sans-serif">Primary ice contact zone</text>
-
-      <!-- HEEL (right) -->
-      <line x1="598" y1="95" x2="598" y2="38" stroke="rgba(212,216,224,0.3)" stroke-width="1"/>
-      <circle cx="598" cy="97" r="4" fill="#ECEEF2"/>
-      <text x="566" y="28" fill="#ECEEF2"
-        font-size="12" font-family="'Barlow Condensed', sans-serif" font-weight="700" letter-spacing="1">HEEL</text>
-      <text x="556" y="40" fill="rgba(212,216,224,0.4)"
-        font-size="9" font-family="sans-serif">Lifts off ice</text>
-
-      <!-- ROCKER arc label (below blade) -->
-      <path d="M 140,130 Q 340,158 540,130"
-        fill="none" stroke="rgba(184,212,232,0.15)" stroke-width="1" stroke-dasharray="4,3"/>
-      <text x="265" y="154" fill="rgba(184,212,232,0.35)"
-        font-size="9" font-family="sans-serif" letter-spacing="1">Rocker radius (profile)</text>
-
-      <!-- PITCH label -->
-      <text x="90" y="148" fill="rgba(239,68,68,0.5)"
-        font-size="9" font-family="sans-serif">Pitch: forward tilt of contact zone</text>
-      <!-- small arrow indicating forward pitch direction -->
-      <line x1="175" y1="144" x2="190" y2="138" stroke="rgba(239,68,68,0.4)" stroke-width="1.2" stroke-linecap="round"/>
-      <line x1="190" y1="138" x2="184" y2="143" stroke="rgba(239,68,68,0.4)" stroke-width="1.2" stroke-linecap="round"/>
-    </svg>
-  </div>
-</div>
-
-<div class="diagram-wrap" style="margin-top:28px;">
-  <div class="diagram-title">Profile Comparison — How the Rocker Changes Ice Contact</div>
-  <div class="profile-diagram">
-
-    <!-- Aggressive Rocker -->
-    <div class="profile-row">
-      <div class="profile-svg-wrap">
-        <svg viewBox="0 0 520 108" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <linearGradient id="bEdge1" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%"   stop-color="#8A9098"/>
-              <stop offset="30%"  stop-color="#C8CDD8"/>
-              <stop offset="55%"  stop-color="#EAEDF2"/>
-              <stop offset="80%"  stop-color="#B0B6C4"/>
-              <stop offset="100%" stop-color="#8A9098"/>
-            </linearGradient>
-          </defs>
-
-          <!-- Holder / mounting rail -->
-          <rect x="55" y="16" width="410" height="10" rx="3"
-            fill="#1E2024" stroke="rgba(212,216,224,0.25)" stroke-width="1"/>
-          <!-- Blade body -->
-          <rect x="57" y="26" width="406" height="24" rx="0"
-            fill="rgba(212,216,224,0.06)"/>
-          <line x1="57"  y1="26" x2="57"  y2="50" stroke="rgba(212,216,224,0.2)" stroke-width="1.5"/>
-          <line x1="463" y1="26" x2="463" y2="50" stroke="rgba(212,216,224,0.2)" stroke-width="1.5"/>
-
-          <!-- Skating edge: rocker curves DOWN 18px in center — aggressive -->
-          <path d="M 57,50 Q 260,68 463,50"
-            fill="none" stroke="url(#bEdge1)" stroke-width="2.5" stroke-linecap="round"/>
-
-          <!-- Ice surface -->
-          <line x1="18" y1="82" x2="502" y2="82"
-            stroke="rgba(184,212,232,0.3)" stroke-width="1.5" stroke-dasharray="6,4"/>
-          <text x="20" y="79" fill="rgba(184,212,232,0.35)"
-            font-size="9" font-family="sans-serif" font-weight="600">ICE</text>
-
-          <!-- Gap lines: heel and toe lift off ice -->
-          <line x1="57"  y1="50" x2="57"  y2="82" stroke="rgba(255,255,255,0.1)" stroke-width="1" stroke-dasharray="3,3"/>
-          <line x1="463" y1="50" x2="463" y2="82" stroke="rgba(255,255,255,0.1)" stroke-width="1" stroke-dasharray="3,3"/>
-
-          <!-- Contact patch: narrow strip at deepest point -->
-          <path d="M 205,65 Q 260,68 315,65"
-            stroke="#4ade80" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
-
-          <!-- Labels -->
-          <text x="30"  y="46" fill="rgba(212,216,224,0.45)"
-            font-size="10" font-family="'Barlow Condensed', sans-serif" font-weight="700" letter-spacing="1">TOE</text>
-          <text x="465" y="46" fill="rgba(212,216,224,0.45)"
-            font-size="10" font-family="'Barlow Condensed', sans-serif" font-weight="700" letter-spacing="1">HEEL</text>
-
-          <line x1="260" y1="67" x2="260" y2="48" stroke="rgba(74,222,128,0.4)" stroke-width="1" stroke-dasharray="2,2"/>
-          <text x="175" y="44" fill="#4ade80"
-            font-size="10" font-family="'Barlow Condensed', sans-serif" font-weight="700" letter-spacing="1">CONTACT PATCH</text>
+          <!-- Hollow radius arc (dashed) — from groove peak to right edge -->
+          <path d="M250,105 Q320,105 360,150" fill="none" stroke="rgba(184,212,232,0.2)" stroke-width="1" stroke-dasharray="3,3"/>
+          <text x="318" y="122" fill="rgba(184,212,232,0.45)" font-size="10" font-family="sans-serif">radius</text>
         </svg>
-      </div>
-      <div class="profile-info">
-        <div class="profile-info-name">Aggressive Rocker</div>
-        <div class="profile-info-tags">
-          <span class="hollow-tag grip">Agility</span>
-          <span class="hollow-tag grip">Quick Pivots</span>
-          <span class="hollow-tag">Forwards</span>
-        </div>
-        <div class="profile-info-body">Pronounced curve means only the middle section contacts the ice. Heel and toe lift higher. Easier to pivot and change direction quickly — but less stable at full speed.</div>
-      </div>
-    </div>
 
-    <div class="profile-divider"></div>
-
-    <!-- Flat / Neutral Rocker -->
-    <div class="profile-row">
-      <div class="profile-svg-wrap">
-        <svg viewBox="0 0 520 108" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <linearGradient id="bEdge2" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%"   stop-color="#8A9098"/>
-              <stop offset="30%"  stop-color="#C8CDD8"/>
-              <stop offset="55%"  stop-color="#EAEDF2"/>
-              <stop offset="80%"  stop-color="#B0B6C4"/>
-              <stop offset="100%" stop-color="#8A9098"/>
-            </linearGradient>
-          </defs>
-
-          <!-- Holder -->
-          <rect x="55" y="16" width="410" height="10" rx="3"
-            fill="#1E2024" stroke="rgba(212,216,224,0.25)" stroke-width="1"/>
-          <!-- Blade body -->
-          <rect x="57" y="26" width="406" height="24" rx="0"
-            fill="rgba(212,216,224,0.06)"/>
-          <line x1="57"  y1="26" x2="57"  y2="50" stroke="rgba(212,216,224,0.2)" stroke-width="1.5"/>
-          <line x1="463" y1="26" x2="463" y2="50" stroke="rgba(212,216,224,0.2)" stroke-width="1.5"/>
-
-          <!-- Skating edge: gentle curve — only dips 8px, flatter profile -->
-          <path d="M 57,50 Q 260,58 463,50"
-            fill="none" stroke="url(#bEdge2)" stroke-width="2.5" stroke-linecap="round"/>
-
-          <!-- Ice surface -->
-          <line x1="18" y1="82" x2="502" y2="82"
-            stroke="rgba(184,212,232,0.3)" stroke-width="1.5" stroke-dasharray="6,4"/>
-          <text x="20" y="79" fill="rgba(184,212,232,0.35)"
-            font-size="9" font-family="sans-serif" font-weight="600">ICE</text>
-
-          <!-- Gap lines: much smaller heel/toe lift -->
-          <line x1="57"  y1="50" x2="57"  y2="82" stroke="rgba(255,255,255,0.1)" stroke-width="1" stroke-dasharray="3,3"/>
-          <line x1="463" y1="50" x2="463" y2="82" stroke="rgba(255,255,255,0.1)" stroke-width="1" stroke-dasharray="3,3"/>
-
-          <!-- Wide contact patch: large portion of blade near ice -->
-          <path d="M 100,56 Q 260,58 420,56"
-            stroke="#4ade80" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
-
-          <!-- Labels -->
-          <text x="30"  y="46" fill="rgba(212,216,224,0.45)"
-            font-size="10" font-family="'Barlow Condensed', sans-serif" font-weight="700" letter-spacing="1">TOE</text>
-          <text x="465" y="46" fill="rgba(212,216,224,0.45)"
-            font-size="10" font-family="'Barlow Condensed', sans-serif" font-weight="700" letter-spacing="1">HEEL</text>
-
-          <line x1="260" y1="57" x2="260" y2="40" stroke="rgba(74,222,128,0.4)" stroke-width="1" stroke-dasharray="2,2"/>
-          <text x="155" y="36" fill="#4ade80"
-            font-size="10" font-family="'Barlow Condensed', sans-serif" font-weight="700" letter-spacing="1">LARGER CONTACT PATCH</text>
-        </svg>
-      </div>
-      <div class="profile-info">
-        <div class="profile-info-name">Flatter Profile</div>
-        <div class="profile-info-tags">
-          <span class="hollow-tag glide">Speed</span>
-          <span class="hollow-tag glide">Stability</span>
-          <span class="hollow-tag">D-men / Power Skaters</span>
-        </div>
-        <div class="profile-info-body">Gentle curve puts more of the blade in contact with the ice. More surface means better glide efficiency, power transfer, and stability at speed. Common for defensemen and heavier players.</div>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-            <div class="callout chrome">
-        <div class="callout-label">The Line That Matters</div>
-        <div class="callout-body" style="font-family: var(--font-head); font-style: italic; font-weight: 700; font-size: 20px; color: var(--chrome-bright); line-height: 1.3;">"Your profile defines how you skate. Your hollow defines how it feels."</div>
-      </div>
-
-      <p class="body-copy">The uncomfortable reality is that <strong>most youth players have no idea what profile they are skating on.</strong> The blade that came with their skates has a factory default. It may never have been adjusted to their body type, weight, position, or skating mechanics. And because profile changes require a profiling machine, not just a sharpening wheel, most shops never touch it.</p>
-
-      <div class="callout warning">
-        <div class="callout-label">What Most Players Don't Know</div>
-        <div class="callout-body"><strong>Profile can shift over time.</strong> Every sharpening removes a small amount of steel. Inconsistent technique, even from one session to the next, can gradually change the shape of the blade. Players who sharpen at different locations, on different machines, or with different technicians are often unknowingly sharpening to slightly different profiles every time. Over months or a full season, the cumulative effect is real.</div>
-      </div>
-
-      <p class="body-copy">A player who had their profile properly fit at the beginning of the season may be skating on something meaningfully different by the playoffs, without ever understanding why their edges feel different or their stride feels off.</p>
-    </div>
-  </section>
-
-</div><!-- /guide-wrap -->
-
-<!-- ════ MID-CTA 1 ════ -->
-<div class="mid-cta">
-  <div class="mid-cta-inner">
-    <h3>Most Players Can't Answer This</h3>
-    <p>Do you know your hollow? Your profile? Most competitive players don't. EDGE documents both from day one, so every sharpening is intentional — not a guess.</p>
-    <a href="/contact.html" class="btn-cta-chrome">Request a Blade Assessment</a>
-    <a href="https://portal.edgehockeyperformance.com" class="btn-cta-ghost">Player Login</a>
-  </div>
-</div>
-
-<div class="guide-wrap">
-
-  <!-- ════ 03. CONSISTENCY ════ -->
-  <section class="guide-section" id="consistency">
-    <div class="section-inner">
-      <p class="section-num">03 &#47;&#47; Consistency</p>
-      <h2 class="section-h2">The Most<br><span class="hl">Important Variable</span></h2>
-      <p class="section-lead">Getting the right hollow and the right profile matters. Getting them the same way, every single time, is what actually creates a performance edge.</p>
-
-      <p class="body-copy">Even if a player has found the right hollow and profile, inconsistency eliminates those gains. Different machines, technicians, and technique all introduce variation that compounds across a season.</p>
-
-      <div class="pull-quote">
-        <p>Inconsistency in your edges leads to inconsistency in your game.</p>
-      </div>
-
-      <p class="body-copy">A player skating on slightly different edges week to week is constantly adjusting. Crossovers feel different. Stops require different pressure. They're never fully locked in because their foundation is never exactly the same.</p>
-
-      <div class="stat-row">
-        <div class="stat-card">
-          <div class="stat-val">3/8"</div>
-          <div class="stat-label">vs 1/2&quot; hollow</div>
-          <div class="stat-label" style="margin-top:6px; font-size:11px; color:var(--muted); text-transform:none; letter-spacing:0; font-family:var(--font-body);">Even small hollow changes can feel very different for the same player.</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-val">Same Spec</div>
-          <div class="stat-label">Different Result</div>
-          <div class="stat-label" style="margin-top:6px; font-size:11px; color:var(--muted); text-transform:none; letter-spacing:0; font-family:var(--font-body);">Machine setup, calibration, and technique can still change how a sharpening feels.</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-val">Small Drift</div>
-            <div class="stat-label">Big Feel Change</div>
-            <div class="stat-label" style="margin-top:6px; font-size:11px; color:var(--muted); text-transform:none; letter-spacing:0; font-family:var(--font-body);">Minor profile changes over time can alter balance, glide, and stride feel.</div>
+        <div class="hollow-legend">
+          <div class="hollow-legend-item">
+            <div class="hollow-legend-dot" style="background:#ECEEF2;"></div>
+            Blade edges (contact points)
           </div>
-      </div>
-
-      <p class="body-copy">Consistency is about having a <strong>system</strong>. Knowing your settings, who sharpened them, and when they were last profiled. Without a system, you're guessing whether the settings are right, even if you hit the same hollow number on the machine.</p>
-
-      <div class="callout accent">
-        <div class="callout-label">What a System Looks Like</div>
-        <div class="callout-body">A strong blade management system documents a player's settings, service history, and feedback over time so adjustments can be made intentionally, not reactively. That kind of process is common at the pro level and still rare in youth hockey. It makes intentional, not reactive ones. This is how equipment managers at the pro level operate, and it has never existed in youth hockey.</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ════ 04. FREQUENCY ════ -->
-  <section class="guide-section" id="frequency">
-    <div class="section-inner">
-      <p class="section-num">04 &#47;&#47; Sharpening Frequency</p>
-      <h2 class="section-h2">When to Sharpen.<br><span class="hl">Not How You Think.</span></h2>
-      <p class="section-lead">Most youth players sharpen reactively. They wait until their edges feel bad, or until a parent notices, or until the skates hit the ice and something feels obviously wrong. That is not a system. That is hoping nothing breaks.</p>
-
-      <p class="body-copy">Over-sharpening removes unnecessary steel and shortens the life of the blade. Under-sharpening means the player is competing on degraded edges without realizing it. The right frequency depends on <strong>ice time, ice surface quality, and the player's weight and skating intensity,</strong> but the answer is almost never "whenever it crosses my mind."</p>
-
-      <table class="compare-table">
-        <thead>
-          <tr>
-            <th>Sharpening Approach</th>
-            <th>Pattern</th>
-            <th>Result</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Reactive</td>
-            <td>Wait until edges feel bad</td>
-            <td class="col-bad">Competing on degraded performance</td>
-          </tr>
-          <tr>
-            <td>Over-frequent</td>
-            <td>Sharpen before every practice</td>
-            <td class="col-warn">Unnecessary steel loss, blade lifespan shortened</td>
-          </tr>
-          <tr>
-            <td>Routine-based</td>
-            <td>Fixed interval based on ice time</td>
-            <td class="col-good">Consistent performance, extended blade life</td>
-          </tr>
-          <tr>
-            <td>Data-driven</td>
-            <td>Tracked hours + surface + feedback</td>
-            <td class="col-good">Optimized performance, intentional adjustments</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <p class="body-copy">A player logging 8 to 10 hours of ice per week on high-quality NHL-level ice is in a different world from a player practicing three times a week on a community rink with soft ice. Sharpening frequency should reflect those realities, not a gut feeling or a habit carried over from a parent's playing days.</p>
-    </div>
-  </section>
-
-  <!-- ════ 05. STEEL WEAR ════ -->
-  <section class="guide-section" id="wear">
-    <div class="section-inner">
-      <p class="section-num">05 &#47;&#47; Steel &amp; Blade Wear</p>
-      <h2 class="section-h2">The Blade<br><span class="hl">Is Not Permanent</span></h2>
-      <p class="section-lead">Every sharpening removes material from the blade. Over time, the steel wears down, blade height decreases, and the geometry of the profile can slowly shift. This is not a variable most players track, but it should be.</p>
-
-      <div class="insight-grid">
-        <div class="insight-card">
-          <span class="insight-icon">&#9651;</span>
-          <div class="insight-title">Blade Height Loss</div>
-          <div class="insight-body">Each sharpening removes a thin layer of steel. As the blade gets shorter, the relationship between the skate boot and the ice changes. Players who have had the same steel for several seasons are often skating on geometry that no longer reflects what was originally fit.</div>
+          <div class="hollow-legend-item">
+            <div class="hollow-legend-dot" style="background:#B8D4E8;"></div>
+            Hollow groove arc
+          </div>
+          <div class="hollow-legend-item">
+            <div class="hollow-legend-dot" style="background:rgba(239,68,68,0.7);"></div>
+            Groove depth
+          </div>
         </div>
-        <div class="insight-card">
-          <span class="insight-icon">&#11835;</span>
-          <div class="insight-title">Uneven Edge Wear</div>
-          <div class="insight-body">Ice, boards, and stop-and-go loads wear edges unevenly. The inner edge and outer edge degrade at different rates depending on a player's skating mechanics. Nicks from ice debris, pucks, and skate-to-skate contact add unpredictable damage on top of normal wear.</div>
-        </div>
-        <div class="insight-card">
-          <span class="insight-icon">&#8635;</span>
-          <div class="insight-title">Profile Drift</div>
-          <div class="insight-body">When steel height decreases significantly, the rocker profile can shift. What was a properly fit profile may creep toward something flatter or more aggressive depending on where the steel is removed. Players rarely notice until the feel is dramatically different.</div>
-        </div>
-        <div class="insight-card">
-          <span class="insight-icon">&#9873;</span>
-          <div class="insight-title">Knowing When to Replace</div>
-          <div class="insight-body">There is a point at which steel should be replaced rather than sharpened. Most players stay on their steel too long. Replacing at the right time is part of performance management, not just equipment maintenance.</div>
-        </div>
-      </div>
 
-      <p class="body-copy">Managing steel life means tracking sharpenings, monitoring blade height, and understanding when the steel is approaching the end of its useful life. Players who do this replace their steel at the right time and never skate on geometry that no longer fits them.</p>
-    </div>
-  </section>
-
-</div><!-- /guide-wrap -->
-
-<!-- ════ MID-CTA 2 ════ -->
-<div class="mid-cta">
-  <div class="mid-cta-inner">
-    <h3>Your Steel Has a Lifespan. Most Players Ignore It.</h3>
-    <p>Every sharpening removes steel. EDGE tracks blade wear over time so your player is never skating on geometry that no longer fits them.</p>
-    <a href="/contact.html" class="btn-cta-chrome">Request a Blade Assessment</a>
-  </div>
-</div>
-
-<div class="guide-wrap">
-
-  <!-- ════ 06. THE PROBLEM ════ -->
-  <section class="guide-section" id="problem">
-    <div class="section-inner">
-      <p class="section-num">06 &#47;&#47; The Real Problem</p>
-      <h2 class="section-h2">Most Players<br><span class="hl">Are Guessing</span></h2>
-      <p class="section-lead">Most players do care about their edges. The problem is that no one has given them a real system for managing them. So they do the best they can, which amounts to guesswork.</p>
-
-      <p class="body-copy">Here is what the average competitive youth player's blade management actually looks like:</p>
-
-      <div class="problem-list">
-        <div class="problem-item">
-          <div class="problem-icon"></div>
-          <div class="problem-text"><strong>They don't know their hollow.</strong> They got sharpened at the rink, accepted the default, and have never had the conversation about what hollow actually works for their body and skating style.</div>
-        </div>
-        <div class="problem-item">
-          <div class="problem-icon"></div>
-          <div class="problem-text"><strong>They don't know their profile.</strong> The factory profile that came with their skates may have never been adjusted. They have been sharpening it away, often inconsistently, for months or years.</div>
-        </div>
-        <div class="problem-item">
-          <div class="problem-icon"></div>
-          <div class="problem-text"><strong>They rotate sharpening locations.</strong> Whoever is convenient gets the skates. Different machines, different technicians, different habits. The settings are never guaranteed to match what worked before.</div>
-        </div>
-        <div class="problem-item">
-          <div class="problem-icon"></div>
-          <div class="problem-text"><strong>They have no tracking system.</strong> Nothing is logged. When something feels off, there is no data to reference. They are adjusting based on feel in the moment without any ability to diagnose what actually changed.</div>
-        </div>
-        <div class="problem-item">
-          <div class="problem-icon"></div>
-          <div class="problem-text"><strong>They make reactive decisions.</strong> Sharpen when it feels bad. Change the hollow when someone says to try something different. These are not performance decisions. They are guesses dressed up as adjustments.</div>
-        </div>
-      </div>
-
-      <p class="body-copy">Pro shops and at-home options like Sparx have made sharpening more accessible. But accessibility is not the same as optimization. A Sparx machine can deliver a consistent hollow. It cannot personalize a profile, monitor steel wear, build a performance history, or catch a problem developing before it impacts play. Convenience is not a system.</p>
-
-      <div class="callout warning">
-        <div class="callout-label">The Missing Layer</div>
-        <div class="callout-body">Even the best sharpening, done consistently, is still only one part of the picture. Most youth players still do not have a documented history, a clear feedback loop, or a more professional process around their blades.</div>
-      </div>
-
-      <div class="pull-quote">
-      <p>Consistency matters. But consistency without intention still leaves a lot on the table.</p>
-    </div>
-    </div>
-  </section>
-
-  <!-- ════ 07. ELITE ════ -->
-  <section class="guide-section" id="elite">
-    <div class="section-inner">
-      <p class="section-num">07 &#47;&#47; How the Elite Do It</p>
-      <h2 class="section-h2">What High-Level<br><span class="hl">Players Actually Do</span></h2>
-      <p class="section-lead">At the pro level, blade management is not an afterthought. It is a structured process managed by experienced equipment staff. Every variable is tracked, every preference is dialed in, and adjustments are intentional, not reactive.</p>
-
-      <p class="body-copy">Players at the NCAA, AHL, and NHL level have equipment managers who know their hollow, profile, and sharpening history. When something changes, there's a reason. When something goes wrong, there's a record.</p>
-
-      <div class="pro-list">
-        <div class="pro-item">
-          <div class="pro-icon"></div>
-          <div class="pro-text"><strong>Hollow is dialed in specifically to the player.</strong> Weight, skating style, position, and ice conditions all factor into the decision. It gets revisited over time as those factors change.</div>
-        </div>
-        <div class="pro-item">
-          <div class="pro-icon"></div>
-          <div class="pro-text"><strong>Profile is set intentionally and maintained.</strong> Players know their profile. Equipment staff track it and check for drift. Profile adjustments are made deliberately, not accidentally.</div>
-        </div>
-        <div class="pro-item">
-          <div class="pro-icon"></div>
-          <div class="pro-text"><strong>Sharpening frequency follows a schedule, not a feeling.</strong> Ice time is logged. Sharpening intervals are based on actual use data. Nothing is left to guesswork or memory.</div>
-        </div>
-        <div class="pro-item">
-          <div class="pro-icon"></div>
-          <div class="pro-text"><strong>Steel life is actively managed.</strong> Equipment staff know how much blade height is remaining. Steel is replaced when it should be replaced, not when it fails.</div>
-        </div>
-        <div class="pro-item">
-          <div class="pro-icon"></div>
-          <div class="pro-text"><strong>Performance feedback is part of the loop.</strong> When a player reports that their edges feel off, that information connects back to what changed, whether it is the hollow, the profile, the steel age, or the ice conditions.</div>
-        </div>
-      </div>
-
-
-
-<div style="margin:36px 0; border-radius:14px; overflow:hidden; border:1px solid rgba(255,255,255,0.08);">
-  <svg width="100%" viewBox="0 0 760 200" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block;">
-    <rect width="760" height="200" fill="#080808"/>
-    <linearGradient id="eqBG" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#111416"/>
-      <stop offset="100%" stop-color="#080808"/>
-    </linearGradient>
-    <rect width="760" height="200" fill="url(#eqBG)"/>
-
-    <!-- Workbench surface -->
-    <rect x="0" y="130" width="760" height="70" fill="#0E0E0E"/>
-    <line x1="0" y1="130" x2="760" y2="130" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
-
-    <!-- Steel ruler / measuring tool on bench -->
-    <rect x="60" y="120" width="300" height="14" rx="2" fill="#1E1E1E" stroke="rgba(212,216,224,0.2)" stroke-width="1"/>
-    <line x1="80" y1="120" x2="80" y2="128" stroke="rgba(212,216,224,0.3)" stroke-width="1"/>
-    <line x1="110" y1="120" x2="110" y2="128" stroke="rgba(212,216,224,0.3)" stroke-width="1"/>
-    <line x1="140" y1="120" x2="140" y2="128" stroke="rgba(212,216,224,0.3)" stroke-width="1"/>
-    <line x1="170" y1="120" x2="170" y2="128" stroke="rgba(212,216,224,0.3)" stroke-width="1"/>
-    <line x1="200" y1="120" x2="200" y2="128" stroke="rgba(212,216,224,0.3)" stroke-width="1"/>
-    <line x1="230" y1="120" x2="230" y2="128" stroke="rgba(212,216,224,0.3)" stroke-width="1"/>
-    <line x1="260" y1="120" x2="260" y2="128" stroke="rgba(212,216,224,0.3)" stroke-width="1"/>
-    <line x1="290" y1="120" x2="290" y2="128" stroke="rgba(212,216,224,0.3)" stroke-width="1"/>
-    <line x1="320" y1="120" x2="320" y2="128" stroke="rgba(212,216,224,0.3)" stroke-width="1"/>
-    <line x1="95" y1="120" x2="95" y2="125" stroke="rgba(212,216,224,0.15)" stroke-width="1"/>
-    <line x1="125" y1="120" x2="125" y2="125" stroke="rgba(212,216,224,0.15)" stroke-width="1"/>
-
-    <!-- Blade holder / fixture -->
-    <rect x="400" y="105" width="260" height="22" rx="3" fill="#181818" stroke="rgba(212,216,224,0.15)" stroke-width="1"/>
-    <!-- Blade in holder -->
-    <linearGradient id="bladeInHolder" x1="400" y1="0" x2="660" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#9AA0AE"/>
-      <stop offset="40%" stop-color="#DCDFE6"/>
-      <stop offset="70%" stop-color="#A8AEBB"/>
-      <stop offset="100%" stop-color="#9AA0AE"/>
-    </linearGradient>
-    <rect x="408" y="118" width="244" height="5" rx="1" fill="url(#bladeInHolder)"/>
-    <!-- Fixture screws -->
-    <circle cx="420" cy="116" r="4" fill="#222" stroke="rgba(212,216,224,0.2)" stroke-width="1"/>
-    <circle cx="640" cy="116" r="4" fill="#222" stroke="rgba(212,216,224,0.2)" stroke-width="1"/>
-    <line x1="418" y1="114" x2="422" y2="118" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
-    <line x1="638" y1="114" x2="642" y2="118" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
-
-    <!-- Data card / clipboard suggestion on wall -->
-    <rect x="620" y="20" width="110" height="80" rx="4" fill="#111" stroke="rgba(212,216,224,0.12)" stroke-width="1"/>
-    <rect x="628" y="28" width="94" height="8" rx="1" fill="rgba(255,255,255,0.06)"/>
-    <rect x="628" y="40" width="70" height="5" rx="1" fill="rgba(255,255,255,0.04)"/>
-    <rect x="628" y="49" width="80" height="5" rx="1" fill="rgba(255,255,255,0.04)"/>
-    <rect x="628" y="58" width="60" height="5" rx="1" fill="rgba(255,255,255,0.04)"/>
-    <rect x="628" y="67" width="74" height="5" rx="1" fill="rgba(255,255,255,0.04)"/>
-    <rect x="628" y="76" width="50" height="5" rx="1" fill="rgba(255,255,255,0.04)"/>
-    <text x="675" y="27" text-anchor="middle" fill="rgba(184,212,232,0.3)" font-size="8" font-family="sans-serif" font-weight="600">PLAYER PROFILE</text>
-
-    <!-- Hanging skates suggestion -->
-    <g opacity="0.35">
-      <path d="M50,20 Q50,80 60,115 L80,120 L90,115 Q100,80 100,20" fill="none" stroke="rgba(212,216,224,0.4)" stroke-width="2"/>
-      <path d="M60,115 L80,118 L100,115 Q110,115 115,122 Q120,135 108,140 L60,140 Q48,138 46,130 Q44,122 52,118 Z" fill="#141414" stroke="rgba(212,216,224,0.25)" stroke-width="1.5"/>
-      <!-- Blade -->
-      <path d="M52,140 Q55,148 60,150 L100,149 Q108,148 110,142" fill="none" stroke="rgba(212,216,224,0.5)" stroke-width="2"/>
-    </g>
-    <g opacity="0.25" transform="translate(130,0)">
-      <path d="M50,20 Q50,80 60,115 L80,120 L90,115 Q100,80 100,20" fill="none" stroke="rgba(212,216,224,0.4)" stroke-width="2"/>
-      <path d="M60,115 L80,118 L100,115 Q110,115 115,122 Q120,135 108,140 L60,140 Q48,138 46,130 Q44,122 52,118 Z" fill="#141414" stroke="rgba(212,216,224,0.25)" stroke-width="1.5"/>
-      <path d="M52,140 Q55,148 60,150 L100,149 Q108,148 110,142" fill="none" stroke="rgba(212,216,224,0.5)" stroke-width="2"/>
-    </g>
-
-    <!-- Overhead light effect -->
-    <radialGradient id="workLight" cx="50%" cy="0%" r="60%">
-      <stop offset="0%" stop-color="rgba(212,216,224,0.04)"/>
-      <stop offset="100%" stop-color="rgba(212,216,224,0)"/>
-    </radialGradient>
-    <rect width="760" height="200" fill="url(#workLight)"/>
-
-    <!-- Label -->
-    <rect x="0" y="160" width="760" height="40" fill="rgba(0,0,0,0.55)"/>
-    <text x="380" y="178" text-anchor="middle" fill="rgba(212,216,224,0.55)" font-size="10"
-      font-family="'Barlow Condensed', sans-serif" font-weight="700" letter-spacing="3">EQUIPMENT MANAGEMENT</text>
-    <text x="380" y="192" text-anchor="middle" fill="rgba(255,255,255,0.2)" font-size="9"
-      font-family="sans-serif">Precision fixtures · player profiles · calibrated every session</text>
-  </svg>
-</div>
-
-      <p class="body-copy">This level of process has long existed at the top of the game. EDGE is being built to bring more of that structure and visibility to serious youth players, hockey families, and competitive programs. It has never been available to youth players and serious hockey families who are just trying to give their players every possible edge in a deeply competitive environment. That is the gap EDGE is built to close.</p>
-    </div>
-  </section>
-
-  <!-- ════ 08. EDGE SYSTEM ════ -->
-  <section class="guide-section" id="edge-system">
-    <div class="section-inner">
-      <p class="section-num">08 &#47;&#47; The EDGE System</p>
-      <h2 class="section-h2">Bringing Pro-Level<br><span class="hl">Process to Youth Hockey</span></h2>
-      <p class="section-lead">EDGE starts with structured sharpening and is being built into a fuller blade management system for competitive players and programs.</p>
-    </div>
-    <div class="section-inner wide">
-      <div class="system-grid">
-        <div class="system-card">
-          <div class="system-card-num">01</div>
-          <div class="system-card-title">Player Profiles</div>
-          <div class="system-card-body">Every player starts with a profile intake. Hollow, blade profile, position, skating style, weight, and ice conditions are all documented from day one. Nothing is assumed.</div>
-        </div>
-        <div class="system-card">
-          <div class="system-card-num">02</div>
-          <div class="system-card-title">Consistent Sharpenings</div>
-          <div class="system-card-body">Each sharpening is performed to the player's documented specs, on calibrated equipment, by trained technicians. The same hollow. The same profile. Every time.</div>
-        </div>
-        <div class="system-card">
-          <div class="system-card-num">03</div>
-          <div class="system-card-title">Sharpening History</div>
-          <div class="system-card-body">Every session is logged. Date, hollow, location, notes. When a player reports a change in feel, there is a record to reference. Adjustments are made from data, not guesswork.</div>
-        </div>
-        <div class="system-card">
-          <div class="system-card-num">04</div>
-          <div class="system-card-title">Steel Lifecycle Tracking</div>
-          <div class="system-card-body">Blade height and steel life are monitored over time. Players know where they are in their steel's lifecycle. Replacement happens at the right time, not after a problem already affected play.</div>
-        </div>
-        <div class="system-card">
-          <div class="system-card-num">05</div>
-          <div class="system-card-title">Intentional Adjustments</div>
-          <div class="system-card-body">Hollow and profile adjustments happen on purpose. When a player develops, when ice conditions shift, or when skating mechanics change, the settings evolve with them. Informed, not reactive.</div>
-        </div>
-        <div class="system-card">
-          <div class="system-card-num">06</div>
-          <div class="system-card-title">Player Portal</div>
-          <div class="system-card-body">Players and parents can view sharpening history, current settings, and blade-related information through the EDGE portal as the system continues to evolve.</div>
-        </div>
       </div>
     </div>
-    <div class="section-inner">
-      <p class="body-copy" style="margin-top:20px;">This is the process that has separated elite players' blade management from everyone else's for decades. EDGE brings it to the players who are serious about development and ready to stop EDGE brings a more structured blade management process to players who are serious about development and want more consistency, visibility, and intention behind their edges.</p>
-    </div>
-  </section>
 
-  <!-- ════ RELATED CONTENT ════ -->
-  <section class="guide-section" style="padding-bottom:80px;">
-    <div class="section-inner">
-      <p class="section-num">Continue Learning</p>
-      <h2 class="section-h2">More From<br><span class="hl">EDGE</span></h2>
-      <p class="body-copy">This guide covers the foundation. These resources go deeper on specific topics.</p>
-    </div>
-    <div class="section-inner wide">
-      <div class="related-grid">
-        <a href="/blade-hollow" class="related-card">
-          <div class="related-tag">Blade Education Series &nbsp;·&nbsp; Part 3</div>
-          <div class="related-title">Hollow: The Measurement That Controls Your Edge</div>
-          <div class="related-desc">A breakdown of every common hollow setting, what type of player it suits, and how to approach finding yours.</div>
-        </a>
-        <a href="/blade-profile" class="related-card">
-          <div class="related-tag">Blade Education Series &nbsp;·&nbsp; Part 2</div>
-          <div class="related-title">Blade Profile: The Shape That Defines Your Stride</div>
-          <div class="related-desc">A deeper look at how profile affects stride mechanics, position-specific needs, and when to consider a re-profile.</div>
-        </a>
-        <a href="#" class="related-card" style="pointer-events:none; opacity:0.6;">
-          <div class="related-tag">Coming Soon &nbsp;·&nbsp; In Development</div>
-          <div class="related-title">How to Read Your Edges</div>
-          <div class="related-desc">What to look for when inspecting your blades. Nicks, uneven wear, edge integrity, and when to sharpen before it becomes a problem.</div>
-        </a>
-        <a href="#" class="related-card" style="pointer-events:none; opacity:0.6;">
-          <div class="related-tag">Coming Soon &nbsp;·&nbsp; In Development</div>
-          <div class="related-title">EDGE Frequently Asked Questions</div>
-          <div class="related-desc">Common questions from players and parents about the EDGE program, service process, pricing, and how to get started.</div>
-        </a>
+    <div class="callout chrome">
+      <div class="callout-label">The Key Relationship</div>
+      <div class="callout-body">
+        <strong>Smaller number = deeper groove = more bite = less glide.</strong> A 3/8" hollow digs deep and grabs hard. A 1" hollow is nearly flat and lets you fly. Most competitive youth players fall somewhere between 1/2" and 5/8" — but they often don't know which, or why.
       </div>
     </div>
-  </section>
 
-</div><!-- /guide-wrap -->
-
-<!-- ════ SERIES CALLOUT ════ -->
-<section style="padding:64px 40px;background:var(--bg-2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
-  <div style="max-width:var(--max);margin:0 auto;">
-    <p style="font-family:var(--font-head);font-size:11px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:var(--muted);margin-bottom:28px;">Continue the Blade Education Series</p>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
-
-      <!-- Part 2 -->
-      <div style="background:var(--bg-3);border:1px solid var(--border);border-radius:var(--radius-lg);padding:32px 28px;display:flex;flex-direction:column;justify-content:space-between;gap:24px;">
-        <div>
-          <p style="font-family:var(--font-head);font-size:11px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:var(--ice-dim);margin-bottom:12px;">Part 2</p>
-          <h3 style="font-family:var(--font-head);font-style:italic;font-weight:800;font-size:clamp(20px,2.4vw,28px);text-transform:uppercase;color:var(--chrome-bright);line-height:1.1;margin-bottom:12px;">Blade Profile:<br>The Shape That Defines Your Stride</h3>
-          <p style="font-size:14px;font-weight:300;color:rgba(212,216,224,0.6);line-height:1.75;">Learn what profile does — and why most players are skating on one that's slowly drifting without them knowing.</p>
-        </div>
-        <a href="/blade-profile" style="align-self:flex-start;font-family:var(--font-head);font-style:italic;font-weight:800;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;background:var(--chrome-grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;border:1px solid var(--chrome-mid);border-radius:6px;padding:12px 24px;text-decoration:none;white-space:nowrap;transition:border-color .2s;" onmouseover="this.style.borderColor='var(--chrome-bright)'" onmouseout="this.style.borderColor='var(--chrome-mid)'">
-          Read Part 2 →
-        </a>
-      </div>
-
-      <!-- Part 3 -->
-      <div style="background:var(--bg-3);border:1px solid var(--border);border-radius:var(--radius-lg);padding:32px 28px;display:flex;flex-direction:column;justify-content:space-between;gap:24px;">
-        <div>
-          <p style="font-family:var(--font-head);font-size:11px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:var(--ice-dim);margin-bottom:12px;">Part 3</p>
-          <h3 style="font-family:var(--font-head);font-style:italic;font-weight:800;font-size:clamp(20px,2.4vw,28px);text-transform:uppercase;color:var(--chrome-bright);line-height:1.1;margin-bottom:12px;">Hollow:<br>The Measurement That Controls Your Edge</h3>
-          <p style="font-size:14px;font-weight:300;color:rgba(212,216,224,0.6);line-height:1.75;">Go deep on hollow — the spectrum, how to choose yours, and why inconsistency is silently hurting your skating.</p>
-        </div>
-        <a href="/blade-hollow" style="align-self:flex-start;font-family:var(--font-head);font-style:italic;font-weight:800;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;background:var(--chrome-grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;border:1px solid var(--chrome-mid);border-radius:6px;padding:12px 24px;text-decoration:none;white-space:nowrap;transition:border-color .2s;" onmouseover="this.style.borderColor='var(--chrome-bright)'" onmouseout="this.style.borderColor='var(--chrome-mid)'">
-          Read Part 3 →
-        </a>
-      </div>
-
-    </div>
   </div>
 </section>
+
+<!-- ── SECTION 2: How Hollow Works ── -->
+<section class="guide-section" id="how-it-works">
+  <div class="section-inner">
+    <h2 class="section-h2">How Hollow<br><span class="hl">Works</span></h2>
+    <p class="section-lead">Hollow controls the balance between grip and glide — the two fundamental forces that make skating possible. Every hollow is a trade-off between these opposing qualities.</p>
+
+    <p class="body-copy">When you push off or dig into a turn, your edges sink slightly into the ice. The deeper the hollow, the more they sink — and the more traction you generate. But deeper edges also create more drag. Your glide suffers, your crossovers feel heavier, and your top-end speed diminishes.</p>
+
+    <p class="body-copy">A shallower hollow gives your edges less bite but lets them skim more freely. Straight-line speed improves. Long stride efficiency goes up. But in tight turns, quick pivots, or hard stops, you may feel your feet sliding instead of locking in.</p>
+
+    <div class="insight-grid">
+      <div class="insight-card">
+        <span class="insight-icon">🔒</span>
+        <div class="insight-title">Edge Bite</div>
+        <p class="insight-body">Deeper hollows create sharper, more pronounced edges that dig into the ice — critical for explosive stops, tight turns, and quick direction changes.</p>
+      </div>
+      <div class="insight-card">
+        <span class="insight-icon">💨</span>
+        <div class="insight-title">Glide Efficiency</div>
+        <p class="insight-body">Shallower hollows reduce drag during glide phases, improving straight-line speed and long-distance stride efficiency — key for wingers and defensemen.</p>
+      </div>
+      <div class="insight-card">
+        <span class="insight-icon">↩️</span>
+        <div class="insight-title">Turning Power</div>
+        <p class="insight-body">More hollow depth means edges engage sooner and harder in a turn — you get higher edge engagement angles without slipping during crossovers and pivots.</p>
+      </div>
+      <div class="insight-card">
+        <span class="insight-icon">🦵</span>
+        <div class="insight-title">Leg Fatigue</div>
+        <p class="insight-body">Hollow that's too deep for your body weight or skating style forces your legs to fight extra drag on every stride — which compounds over a full game.</p>
+      </div>
+    </div>
+
+    <div class="pull-quote">
+      <p>"The right hollow isn't the deepest one. It's the one you understand and control."</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── SECTION 3: The Hollow Spectrum ── -->
+<section class="guide-section" id="the-spectrum">
+  <div class="section-inner wide">
+    <div style="max-width:760px;margin:0 auto;">
+      <h2 class="section-h2">The Hollow<br><span class="hl">Spectrum</span></h2>
+      <p class="section-lead">Common hollows range from 3/8" (very aggressive) to 1" (very shallow). Each sits in a different spot on the grip-to-glide continuum, and each suits a different type of skater.</p>
+    </div>
+
+    <!-- Spectrum bar -->
+    <div style="margin:40px 0;background:var(--bg-2);border:1px solid var(--border);border-radius:var(--radius-lg);padding:32px 28px;">
+      <div style="font-family:var(--font-head);font-size:11px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:var(--muted);margin-bottom:20px;">Hollow Spectrum — Grip vs. Glide</div>
+      <div style="position:relative;height:10px;background:linear-gradient(90deg, rgba(74,222,128,0.5) 0%, rgba(184,212,232,0.4) 50%, rgba(239,68,68,0.4) 100%);border-radius:5px;margin-bottom:12px;"></div>
+      <div style="display:flex;justify-content:space-between;font-family:var(--font-head);font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;">
+        <span style="color:#4ade80;">3/8" — Maximum Grip</span>
+        <span style="color:rgba(184,212,232,0.7);">1/2"–5/8" — Balanced</span>
+        <span style="color:rgba(239,68,68,0.7);">3/4"–1" — Maximum Glide</span>
+      </div>
+    </div>
+
+    <!-- Hollow cards -->
+    <div class="hollow-visual">
+
+      <div class="hollow-card">
+        <div class="hollow-arc">
+          <svg viewBox="0 0 80 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="80" height="42" fill="#111"/>
+            <rect x="5" y="2" width="70" height="22" rx="2" fill="#1A1A1A" stroke="rgba(212,216,224,0.15)" stroke-width="1"/>
+            <!-- Very deep arc (3/8") — curves sharply up into blade -->
+            <path d="M10,24 Q40,3 70,24" fill="rgba(74,222,128,0.08)" stroke="#4ade80" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="hollow-name">3/8"</div>
+        <div class="hollow-desc">Maximum bite. Very short radius = very deep groove.</div>
+        <div class="hollow-tags">
+          <span class="hollow-tag grip">Max Grip</span>
+          <span class="hollow-tag">Low Glide</span>
+        </div>
+      </div>
+
+      <div class="hollow-card">
+        <div class="hollow-arc">
+          <svg viewBox="0 0 80 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="80" height="42" fill="#111"/>
+            <rect x="5" y="2" width="70" height="22" rx="2" fill="#1A1A1A" stroke="rgba(212,216,224,0.15)" stroke-width="1"/>
+            <!-- Deep arc (1/2") — curves noticeably up into blade -->
+            <path d="M10,24 Q40,8 70,24" fill="rgba(74,222,128,0.05)" stroke="#ECEEF2" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="hollow-name">1/2"</div>
+        <div class="hollow-desc">Aggressive but manageable. Most common for youth/junior.</div>
+        <div class="hollow-tags">
+          <span class="hollow-tag grip">High Grip</span>
+          <span class="hollow-tag glide">Moderate Glide</span>
+        </div>
+      </div>
+
+      <div class="hollow-card">
+        <div class="hollow-arc">
+          <svg viewBox="0 0 80 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="80" height="42" fill="#111"/>
+            <rect x="5" y="2" width="70" height="22" rx="2" fill="#1A1A1A" stroke="rgba(212,216,224,0.15)" stroke-width="1"/>
+            <!-- Medium arc (5/8") — moderate upward curve -->
+            <path d="M10,24 Q40,13 70,24" fill="rgba(184,212,232,0.05)" stroke="#B8D4E8" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="hollow-name">5/8"</div>
+        <div class="hollow-desc">Balanced. Good all-around for older competitive players.</div>
+        <div class="hollow-tags">
+          <span class="hollow-tag grip">Balanced Grip</span>
+          <span class="hollow-tag glide">Good Glide</span>
+        </div>
+      </div>
+
+      <div class="hollow-card">
+        <div class="hollow-arc">
+          <svg viewBox="0 0 80 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="80" height="42" fill="#111"/>
+            <rect x="5" y="2" width="70" height="22" rx="2" fill="#1A1A1A" stroke="rgba(212,216,224,0.15)" stroke-width="1"/>
+            <!-- Shallow arc (3/4") — gentle upward curve -->
+            <path d="M10,24 Q40,18 70,24" fill="rgba(184,212,232,0.04)" stroke="rgba(184,212,232,0.6)" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="hollow-name">3/4"</div>
+        <div class="hollow-desc">Glide-oriented. Favored by heavier skaters and defenders.</div>
+        <div class="hollow-tags">
+          <span class="hollow-tag">Low Grip</span>
+          <span class="hollow-tag glide">High Glide</span>
+        </div>
+      </div>
+
+      <div class="hollow-card">
+        <div class="hollow-arc">
+          <svg viewBox="0 0 80 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="80" height="42" fill="#111"/>
+            <rect x="5" y="2" width="70" height="22" rx="2" fill="#1A1A1A" stroke="rgba(212,216,224,0.15)" stroke-width="1"/>
+            <!-- Very shallow arc (1") — nearly flat, barely any curve -->
+            <path d="M10,24 Q40,21 70,24" fill="rgba(239,68,68,0.03)" stroke="rgba(239,68,68,0.5)" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="hollow-name">1"</div>
+        <div class="hollow-desc">Near-flat. Maximum glide, minimal edge engagement.</div>
+        <div class="hollow-tags">
+          <span class="hollow-tag">Minimal Grip</span>
+          <span class="hollow-tag glide">Max Glide</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="max-width:760px;margin:0 auto;">
+      <div class="callout accent">
+        <div class="callout-label">Reading the Numbers</div>
+        <div class="callout-body">
+          The fraction refers to the radius of the grinding wheel's cup — not the depth itself. A <strong>1/2" hollow</strong> uses a wheel with a half-inch radius, producing a deeper, narrower groove than a <strong>3/4" hollow</strong>. The smaller the fraction, the deeper and more aggressive the cut.
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── SECTION 4: What Nobody Tells You ── -->
+<section class="guide-section" id="what-nobody-tells-you">
+  <div class="section-inner">
+    <h2 class="section-h2">What Nobody<br><span class="hl">Tells You</span></h2>
+    <p class="section-lead">Most players know they get their skates sharpened. Almost none know that every sharpening resets their hollow — and that switching sharpeners is the same as switching hollows.</p>
+
+    <div class="problem-list">
+      <div class="problem-item">
+        <div class="problem-icon"></div>
+        <div class="problem-text"><strong>Every sharpening resets your hollow.</strong> The machine grinds away the previous groove and replaces it. If your sharpener uses a different wheel or a different setup, your hollow changes — even if the number on the form says the same thing.</div>
+      </div>
+      <div class="problem-item">
+        <div class="problem-icon"></div>
+        <div class="problem-text"><strong>Sharpening machines are not standardized.</strong> A "1/2" hollow" at one shop may feel different from a "1/2" hollow" at another. Wheel condition, dressing technique, and machine calibration all affect the result.</div>
+      </div>
+      <div class="problem-item">
+        <div class="problem-icon"></div>
+        <div class="problem-text"><strong>Most youth players have never had a consistent hollow.</strong> They get sharpened wherever is convenient — different shops, different tournaments, different machines. Their skates never feel the same two games in a row, and nobody connects the dots.</div>
+      </div>
+      <div class="problem-item">
+        <div class="problem-icon"></div>
+        <div class="problem-text"><strong>Your hollow preference changes as you develop.</strong> A 9-year-old on a 1/2" hollow is appropriate. The same player at 15, with more weight, strength, and skating skills, may skate better on a 5/8" or 3/4" — but no one has ever revisited it.</div>
+      </div>
+    </div>
+
+    <div class="callout warning">
+      <div class="callout-label">The Real Cost of Inconsistency</div>
+      <div class="callout-body">
+        When your hollow changes unpredictably, your body compensates without you realizing it. You dig edges differently, adjust your weight, change your stride mechanics. Over time this builds bad habits — <strong>not because of your technique, but because your equipment keeps changing underneath you.</strong>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</div>
+
+<!-- ════ MID-PAGE CTA ════ -->
+<div class="mid-cta">
+  <div class="mid-cta-inner">
+    <h3>Does Your Hollow<br>Actually Fit Your Game?</h3>
+    <p>Most players are on the wrong hollow for their size, position, or playing style. EDGE evaluates your current setup and recommends a hollow based on your actual skating — not guesswork.</p>
+    <a href="/contact.html" class="btn-cta-chrome">Request a Blade Assessment</a>
+    <a href="/blade-guide" class="btn-cta-ghost">Start from Part 1</a>
+  </div>
+</div>
+
+<div class="guide-wrap">
+
+<!-- ── SECTION 5: Choosing Your Hollow ── -->
+<section class="guide-section" id="choosing-hollow">
+  <div class="section-inner wide">
+    <div style="max-width:760px;margin:0 auto;">
+      <h2 class="section-h2">Choosing<br><span class="hl">Your Hollow</span></h2>
+      <p class="section-lead">There's no single correct hollow. The right one depends on your position, skating style, ice conditions, and body weight — and ideally, on feedback from someone who watches you skate.</p>
+    </div>
+
+    <!-- Comparison table -->
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th>Player Type</th>
+          <th>Typical Hollow</th>
+          <th>Why</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Young / lighter skater (under 100 lbs)</td>
+          <td class="col-warn">3/8" – 1/2"</td>
+          <td>Less body weight means less natural edge pressure — deeper hollow compensates to maintain grip.</td>
+        </tr>
+        <tr>
+          <td>Competitive youth, average build</td>
+          <td class="col-warn">1/2" – 5/8"</td>
+          <td>Balanced grip and glide for the demands of competitive play. Most versatile range for developing players.</td>
+        </tr>
+        <tr>
+          <td>Forward — agility focus</td>
+          <td class="col-good">1/2" – 5/8"</td>
+          <td>Tighter turns, quicker starts, stronger edge engagement in offensive-zone plays.</td>
+        </tr>
+        <tr>
+          <td>Defenseman — power &amp; stability</td>
+          <td class="col-good">5/8" – 3/4"</td>
+          <td>More glide for gap control and gap closing; sufficient grip for battle situations along the boards.</td>
+        </tr>
+        <tr>
+          <td>Goalie</td>
+          <td class="col-warn">Varies widely</td>
+          <td>Goalies often use asymmetric hollows or specialty profiles — hollow selection is highly individual.</td>
+        </tr>
+        <tr>
+          <td>Heavier skater (over 180 lbs)</td>
+          <td class="col-good">5/8" – 3/4"</td>
+          <td>More body weight naturally creates more edge pressure — a shallower hollow prevents over-digging and reduces fatigue.</td>
+        </tr>
+        <tr>
+          <td>Soft / poorly maintained ice</td>
+          <td class="col-bad">1/2" or shallower</td>
+          <td>Soft ice already provides extra grip — a deeper hollow can cause edges to catch and trip on ruts and divots.</td>
+        </tr>
+        <tr>
+          <td>Hard / freshly cut ice</td>
+          <td class="col-good">5/8" or deeper</td>
+          <td>Hard ice reduces natural edge engagement — a deeper hollow restores grip on surfaces that would otherwise feel slippery.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="max-width:760px;margin:0 auto;">
+      <div class="callout accent">
+        <div class="callout-label">The Starting Point Rule</div>
+        <div class="callout-body">
+          If you don't know where to start: <strong>most competitive youth players (ages 10–14) do well on a 1/2" hollow.</strong> Older, heavier players (15+) often benefit from moving to 5/8". Go shallower if you feel like your feet are stuck. Go deeper if you feel like your feet are sliding. Make one change at a time, and give it at least 3–4 sessions.
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── SECTION 6: Managing Hollow Consistently ── -->
+<section class="guide-section" id="managing-hollow">
+  <div class="section-inner">
+    <h2 class="section-h2">Managing Hollow<br><span class="hl">Consistently</span></h2>
+    <p class="section-lead">Knowing your hollow is step one. Making sure you get that hollow — every single sharpening, from the same machine — is what actually changes how your skates perform.</p>
+
+    <p class="body-copy">Most players can't feel a one-size change in hollow. But they can absolutely feel two or three sharpenings in a row from different places or different setups. The inconsistency compounds. By the time your body has adapted to one hollow, it changes again.</p>
+
+    <p class="body-copy"><strong>Professional players travel with their equipment manager for exactly this reason.</strong> Their skates are sharpened on one machine, by one person, to one spec, before every game. That consistency is part of their performance — not an afterthought.</p>
+
+    <!-- Managed vs Unmanaged comparison -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:40px 0;">
+
+      <div style="background:rgba(74,222,128,0.04);border:1px solid rgba(74,222,128,0.15);border-radius:var(--radius-lg);padding:28px 24px;">
+        <div style="font-family:var(--font-head);font-size:12px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:#4ade80;margin-bottom:20px;">Managed Hollow</div>
+        <div class="pro-list" style="margin:0;">
+          <div class="pro-item" style="background:transparent;border:none;padding:8px 0 8px 18px;position:relative;">
+            <div class="pro-icon" style="position:absolute;left:0;top:14px;"></div>
+            <div class="pro-text">Same hollow every session — body doesn't need to re-adapt</div>
+          </div>
+          <div class="pro-item" style="background:transparent;border:none;padding:8px 0 8px 18px;position:relative;">
+            <div class="pro-icon" style="position:absolute;left:0;top:14px;"></div>
+            <div class="pro-text">Hollow is adjusted intentionally as the player develops</div>
+          </div>
+          <div class="pro-item" style="background:transparent;border:none;padding:8px 0 8px 18px;position:relative;">
+            <div class="pro-icon" style="position:absolute;left:0;top:14px;"></div>
+            <div class="pro-text">Feedback from player gets captured and acted on</div>
+          </div>
+          <div class="pro-item" style="background:transparent;border:none;padding:8px 0 8px 18px;position:relative;">
+            <div class="pro-icon" style="position:absolute;left:0;top:14px;"></div>
+            <div class="pro-text">Sharpening history documented — you always know your spec</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background:rgba(185,28,28,0.05);border:1px solid rgba(185,28,28,0.15);border-radius:var(--radius-lg);padding:28px 24px;">
+        <div style="font-family:var(--font-head);font-size:12px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:var(--red-bright);margin-bottom:20px;opacity:0.8;">Unmanaged Hollow</div>
+        <div class="problem-list" style="margin:0;">
+          <div class="problem-item" style="background:transparent;border:none;padding:8px 0 8px 18px;position:relative;">
+            <div class="problem-icon" style="position:absolute;left:0;top:14px;"></div>
+            <div class="problem-text">Different result every sharpening — body constantly compensating</div>
+          </div>
+          <div class="problem-item" style="background:transparent;border:none;padding:8px 0 8px 18px;position:relative;">
+            <div class="problem-icon" style="position:absolute;left:0;top:14px;"></div>
+            <div class="problem-text">Same hollow used from age 8 to 16 without ever revisiting it</div>
+          </div>
+          <div class="problem-item" style="background:transparent;border:none;padding:8px 0 8px 18px;position:relative;">
+            <div class="problem-icon" style="position:absolute;left:0;top:14px;"></div>
+            <div class="problem-text">Issues blamed on skating technique when it's actually equipment</div>
+          </div>
+          <div class="problem-item" style="background:transparent;border:none;padding:8px 0 8px 18px;position:relative;">
+            <div class="problem-icon" style="position:absolute;left:0;top:14px;"></div>
+            <div class="problem-text">No record of what was done or what worked</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Where this fits the EDGE system -->
+    <h2 class="section-h2" style="margin-top:72px;">Where This Fits<br><span class="hl">The EDGE System</span></h2>
+    <p class="section-lead">Hollow doesn't exist in isolation. It works with your blade profile and your sharpening frequency to create a complete performance picture.</p>
+
+    <div class="system-grid">
+      <div class="system-card">
+        <div class="system-card-num">01</div>
+        <div class="system-card-title">Hollow</div>
+        <div class="system-card-body">Controls edge bite and glide — the foundation of every stride, stop, and turn. Part of every EDGE sharpening spec.</div>
+      </div>
+      <div class="system-card">
+        <div class="system-card-num">02</div>
+        <div class="system-card-title">Profile</div>
+        <div class="system-card-body">Controls how much blade contacts the ice and where your balance point is. Works with hollow to shape your overall skating feel.</div>
+      </div>
+      <div class="system-card">
+        <div class="system-card-num">03</div>
+        <div class="system-card-title">Consistency</div>
+        <div class="system-card-body">The multiplier. Knowing your hollow and profile only matters if you get them reliably — session after session, season after season.</div>
+      </div>
+    </div>
+
+    <!-- Final thought -->
+    <div style="margin:64px 0 48px;padding:48px 40px;background:var(--bg-2);border:1px solid var(--border-bright);border-radius:var(--radius-lg);text-align:center;">
+      <p style="font-family:var(--font-head);font-style:italic;font-weight:700;font-size:clamp(20px,2.5vw,28px);line-height:1.3;color:var(--chrome-bright);margin-bottom:16px;">
+        If your skates feel different every time you step on the ice…
+      </p>
+      <p style="font-size:16px;font-weight:300;color:rgba(212,216,224,0.7);margin-bottom:8px;">
+        it might not be your legs. It might not be your technique.
+      </p>
+      <p style="font-family:var(--font-head);font-style:italic;font-weight:800;font-size:18px;text-transform:uppercase;color:var(--chrome-bright);">
+        It might be the groove under your blade — and no one ever told you.
+      </p>
+    </div>
+
+    <!-- Navigation between parts -->
+    <div style="display:flex;justify-content:space-between;align-items:center;padding:32px 0;border-top:1px solid var(--border);margin-bottom:48px;flex-wrap:wrap;gap:16px;">
+      <a href="/blade-profile" style="display:flex;align-items:center;gap:8px;font-family:var(--font-head);font-size:12px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);text-decoration:none;transition:color .2s;" onmouseover="this.style.color='var(--chrome-bright)'" onmouseout="this.style.color='var(--muted)'">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><path d="M10 3L5 8l5 5"/></svg>
+        Part 2: Blade Profile
+      </a>
+      <a href="/contact.html" style="font-family:var(--font-head);font-style:italic;font-weight:800;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;background:var(--chrome-grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;border:1px solid var(--chrome-mid);border-radius:6px;padding:12px 24px;text-decoration:none;transition:border-color .2s;" onmouseover="this.style.borderColor='var(--chrome-bright)'" onmouseout="this.style.borderColor='var(--chrome-mid)'">
+        Get Your Blades Assessed →
+      </a>
+    </div>
+
+  </div>
+</section>
+
+</div>
 
 <!-- ════ FINAL CTA ════ -->
 <section class="final-cta">
   <div class="final-cta-inner">
     <span class="guide-eyebrow">Blade Education Series</span>
     <h2>Stop Guessing.<br><span class="hl">Start Managing.</span></h2>
-    <p>EDGE brings structured blade management to competitive hockey players and programs. If you want your blades tracked, your preferences documented, and your sharpening consistent — we should talk.</p>
+    <p>EDGE brings structured blade management to competitive hockey players and programs. If you want your hollow tracked, your preferences documented, and your sharpening consistent — we should talk.</p>
     <div class="final-cta-btns">
       <a href="/contact.html" class="btn-cta-chrome">Request a Blade Assessment</a>
       <a href="https://portal.edgehockeyperformance.com" class="btn-cta-ghost">Player Login</a>
     </div>
-    <p style="margin-top: 32px; font-size: 14px; color: var(--muted);">Running a team or program? <a href="https://edgehockeyperformance.com/#cta" style="color: var(--chrome); text-decoration: none; border-bottom: 1px solid var(--chrome-dim);">Learn about team partnerships →</a></p>
   </div>
 </section>
 
@@ -1782,9 +1199,9 @@
     <div>
       <div class="footer-col-title">Resources</div>
       <ul class="footer-links">
-        <li><span style="color:var(--muted); cursor:default;">Blade Management Guide</span></li>
-        <li><span style="color:var(--muted); cursor:default;">Hollow Reference Guide</span></li>
-        <li><span style="color:var(--muted); cursor:default;">Profile Guide</span></li>
+        <li><a href="/blade-guide">Blade Management Guide</a></li>
+        <li><a href="/blade-profile">Blade Profile Guide</a></li>
+        <li><a href="/blade-hollow">Hollow Guide</a></li>
         <li><span style="color:var(--muted); cursor:default;">FAQ</span></li>
       </ul>
     </div>
@@ -1806,7 +1223,7 @@
     </div>
   </div>
   <div class="footer-bottom">
-    <span class="footer-copy">© 2026 EDGE Performance. All rights reserved.</span>
+    <span class="footer-copy">&copy; 2026 EDGE Performance. All rights reserved.</span>
     <div class="footer-legal">
       <span class="footer-copy" style="color:var(--muted); font-size:12px;">Privacy &amp; Terms coming soon</span>
     </div>
